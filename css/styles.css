@@ -11663,7 +11663,7 @@ footer a:hover, footer a:active, footer a:focus {
   border-image-width: 10%;
   border-image-repeat: stretch;
   box-shadow: 0 0 10px black;
-  border: 3px solid white;
+  border: 0px solid transparent;
   border-radius: 10px;
   margin-bottom: 1rem;
 }
