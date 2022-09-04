@@ -11662,8 +11662,8 @@ footer a:hover, footer a:active, footer a:focus {
   border-image-slice: 10%;
   border-image-width: 10%;
   border-image-repeat: stretch;
-  box-shadow: 0 0 10px black;
-  border: 0px solid transparent;
+  box-shadow: 0 0 30px white;
+  border: px solid transparent;
   border-radius: 10px;
   margin-bottom: 1rem;
 }
