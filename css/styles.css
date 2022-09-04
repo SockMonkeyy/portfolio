@@ -11975,8 +11975,6 @@ html {
 
 
 
-
-
 .hoverChange:hover {
   content: url("/portfolio/assets/img/monster.png");
   width: 100%;
@@ -11990,5 +11988,5 @@ transform: scale(2.2) rotate(0deg);
 -o-transition: 1s;
 -ms-transition: 1s;
 transition: 1s;
-
+cursor:crosshair;
 }
