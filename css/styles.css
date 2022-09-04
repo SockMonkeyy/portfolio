@@ -11978,17 +11978,18 @@ html {
 .hoverChange:hover {
   content: url("/portfolio/assets/img/monster.png");
   width: 100%;
-  -moz-transform: scale(2.2) rotate(0deg);
--webkit-transform: scale(2.2) rotate(0deg);
--o-transform: scale(2.2) rotate(0deg);
--ms-transform: scale(2.2) rotate(0deg);
-transform: scale(2.2) rotate(0deg);
+  -moz-transform: scale(2.2) rotate(-5deg);
+-webkit-transform: scale(2.2) rotate(-5deg);
+-o-transform: scale(2.2) rotate(-5deg);
+-ms-transform: scale(2.2) rotate(-5deg);
+transform: scale(2.2) rotatez(-5deg);
 -webkit-transition: 1s;
 -moz-transition: 1s;
 -o-transition: 1s;
 -ms-transition: 1s;
 transition: 1s;
 cursor:crosshair;
+translate: -100px -80px;
 }
 
 .smallBorder{
@@ -12000,5 +12001,10 @@ cursor:crosshair;
     border-radius: 10px;
     width: 100%;
     padding: 0;
+    
+  }
+
+  .hoverChange:hover{
+    translate: 0 0;
   }
 }
