@@ -503,6 +503,10 @@
 #home .mc-chicken span {
     background-color: #fff
 }
+.portMobile{
+    font-size: 2.5 rem;
+    padding: 1rem;
+}
 
 @media screen and (min-width:1024px){
     .portMobile{
