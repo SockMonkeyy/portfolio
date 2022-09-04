@@ -3279,7 +3279,7 @@ fieldset:disabled .btn {
 .btn-primary {
   color: #fff;
   background: linear-gradient(35deg, #da22ff, #9733ee);
-  border-color: #2937f0;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -4502,7 +4502,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #2937f0;
+  color: #9733ee;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4515,7 +4515,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #212cc0;
+  color: #9733ee;
 }
 
 .nav-link.disabled {
@@ -12320,7 +12320,7 @@ section {
 
 #mainNav .navbar-brand:hover,
 #mainNav .navbar-brand:active {
-  color: #2937f0;
+  color: #9733ee;
 }
 
 #mainNav .navbar-toggler {
@@ -12338,7 +12338,7 @@ section {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #2937f0;
+  color: #9733ee;
 }
 
 /*!
@@ -12993,7 +12993,6 @@ html {
 }
 
 
-
 .js-scroll {
   position: fixed;
   z-index: 10;
@@ -13029,13 +13028,11 @@ html {
 }
 
 .smallBorder {
-  border-radius: 50%;
   width: 100%;
 }
 
 @media screen and (max-width:996px) {
   .smallBorder {
-    border-radius: 10px;
     width: 100%;
     padding: 0;
 
@@ -13071,3 +13068,23 @@ html {
   }
 
 }
+
+.header-menu{
+  height:95px;
+  width:100%;
+  height:100px;
+  position:relative;
+  overflow: hidden;
+  }
+   .header-menu li {
+     display: inline;
+     margin :20px;
+    }
+  
+  #background{
+  width:100%;
+  height:350px;
+  background-image: url('https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
