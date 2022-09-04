@@ -11961,8 +11961,11 @@ html {
   height: 100%;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e15e953db723dde8b30cce31694c76d1d6c7bb89
 .js-scroll {
   position: fixed;
   z-index: 10;
@@ -11972,6 +11975,7 @@ html {
   width: 100%;
   will-change: transform;
 }
+<<<<<<< HEAD
 
 
 .tile1 {
@@ -11998,3 +12002,5 @@ html {
   background: #lightgrey;
   border:4px solid #495057;
 }
+=======
+>>>>>>> e15e953db723dde8b30cce31694c76d1d6c7bb89
