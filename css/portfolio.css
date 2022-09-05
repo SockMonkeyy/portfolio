@@ -62,7 +62,7 @@
     width: 80%;
     height: 90%;
     position: absolute;
-    top: -100px;
+    top: -120px;
     left: 10%;
     background: -webkit-linear-gradient(45deg,#2937f0, #9f1ae2);
     background-clip: text;
@@ -224,7 +224,113 @@
   }
 
  
+  .frame{
+    
+	display: inline-block;
+	vertical-align: middle;
+	padding: 20px;
+	border: 20px solid #131313;
+	background-color: #eaeaea;
+	position: relative;
+	transition: .3s ease;
+	box-shadow: inset 1px 1px 3px rgba(0,0,0,.3),
+			  1px 1px 2px rgba(0,0,0,.2),
+			  40px 35px 70px -10px rgba(0,0,0,.5),
+			  -20px -20px 100px -10px rgba(0, 0, 0, 0.8);
+	
+	// Glass reflection
+	&:before{
+		content:" ";
+		left: 30px;
+		top: 30px;
+		bottom: 30px;
+		right: 30px;
+		position: absolute;
+		background: linear-gradient(135deg, rgba(255,255,255,0), rgba(255,255,255,0) 50%, rgba(255,255,255,.2) 50%, rgba(255,255,255,0) );
+		transition: .3s ease;
+	}
+	&:hover{
+		&:before{
+			opacity: 0;
+		}
+	}
+	
+	img{
+		box-shadow: 0 0 2px rgba(0,0,0,.1);
+	}
+	
+	&.red{
+		border: 10px solid #A52F2F;
+		box-shadow: 	inset 1px 1px 3px rgba(0,0,0,.3),
+			  		1px 1px 2px rgba(0,0,0,.2),
+			  		40px 35px 70px -10px rgba(0,0,0,.5),
+			  		-20px -20px 100px -10px rgba(#A52F2F,.3);
+	}
+	
+	&.black{
+		border: 10px solid #333;
+		box-shadow: 	inset 1px 1px 3px rgba(0,0,0,.3),
+			  		1px 1px 2px rgba(0,0,0,.2),
+			  		40px 35px 70px -10px rgba(0,0,0,.5),
+			  		-20px -20px 100px -10px rgba(#333,.2);
+	}
+	
+	&.thick{
+		border-width:30px;
+	}
+	
+	figcaption{
+		position: absolute;
+		top: 100%;
+		margin-top: 50px;
+		
+		h2, span{
+			transform: translateY(-30px);
+			opacity: 0;
+			transition: .3s ease;
+		}
+		
+		h2{
+			margin: 0;
+		}
+		span{
+			color: #555;
+			transition-delay: .2s;
+		}
+	}
+	
+	&:hover{
+		transform: scale(1.1);
+		figcaption{
+			h2,span{
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+	}
+}
 
 
+.picture-frame {
+    background-color:rgb(170, 170, 170);
+    width: 50%;
+    border:black solid 40px;
+    -webkit-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+  box-shadow: 4px 13px 59px 8px rgba(0,0,0,0.75);
+    margin:40px;
+  }
+  .matte {
+    background-color:#d3d3d3;
+
+    -webkit-box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
+  }
+  
+  .art {
+    width:80%;
+    margin:10% 10% 10% 10%;
+  }
 
   
