@@ -12662,11 +12662,7 @@ footer a:focus {
 /*Graphic Design image CSS*/
 
 .monster {
-  border-image-slice: 10%;
-  border-image-width: 10%;
-  border-image-repeat: stretch;
   box-shadow: 0 0 30px white;
-  border: px solid transparent;
   border-radius: 50px;
 }
 

@@ -1,8 +1,10 @@
 @charset "UTF-8";
+
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0
     }
+
     to {
         opacity: 1
     }
@@ -12,6 +14,7 @@
     0% {
         opacity: 0
     }
+
     to {
         opacity: 1
     }
@@ -21,6 +24,7 @@
     0% {
         opacity: 1
     }
+
     to {
         opacity: 0
     }
@@ -30,6 +34,7 @@
     0% {
         opacity: 1
     }
+
     to {
         opacity: 0
     }
@@ -41,6 +46,7 @@
         -webkit-transform: translate3d(0, 150px, 0);
         transform: translate3d(0, 150px, 0)
     }
+
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -54,6 +60,7 @@
         -webkit-transform: translate3d(0, 150px, 0);
         transform: translate3d(0, 150px, 0)
     }
+
     to {
         opacity: 1;
         -webkit-transform: none;
@@ -67,6 +74,7 @@
         -webkit-transform: none;
         transform: none
     }
+
     to {
         opacity: 0;
         -webkit-transform: translate3d(0, 150px, 0);
@@ -80,6 +88,7 @@
         -webkit-transform: none;
         transform: none
     }
+
     to {
         opacity: 0;
         -webkit-transform: translate3d(0, 150px, 0);
@@ -88,15 +97,16 @@
 }
 
 
-.portArrow{
-  color: rgba(255, 255, 255, 0.3);
-    
+.portArrow {
+    color: rgba(255, 255, 255, 0.3);
+
 }
 
-.portArrow:hover{
+.portArrow:hover {
     color: white;
 }
-.portArrow:active{
+
+.portArrow:active {
     color: white;
 }
 
@@ -215,9 +225,10 @@
 .link-mask>span {
     font-family: "Montserrat", "Open Sans", sans-serif;
     display: inline-block;
-    color: rgba(255, 255, 255, 0.3);
+    color: #ffffff4d;
     font-weight: 800;
-    height: 70px
+    height: 70px;
+    font-size: 6rem;
 }
 
 .navlinks li:first-of-type .fake-link:before {
@@ -329,6 +340,7 @@
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     to {
         transform: translateX(-96.7%);
         -moz-transform: translateX(-96.7%);
@@ -346,6 +358,7 @@
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     to {
         transform: translateX(-96.7%);
         -moz-transform: translateX(-96.7%);
@@ -363,6 +376,7 @@
         -o-transform: translateX(-96.7%);
         -ms-transform: translateX(-96.7%)
     }
+
     to {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -380,6 +394,7 @@
         -o-transform: translateX(-96.7%);
         -ms-transform: translateX(-96.7%)
     }
+
     to {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -503,14 +518,21 @@
 #home .mc-chicken span {
     background-color: #fff
 }
-.portMobile{
-    font-size: 2.5 rem;
-    padding: 1rem;
+
+.portMobile {
+  
+    border-radius: 10px;
+    color: white;
+    text-align: center;
 }
 
-@media screen and (min-width:1024px){
-    .portMobile{
+@media screen and (min-width:1024px) {
+    .portMobile {
         display: none;
+    }
+
+    .portfolio-wrapper a{
+        font-size: 6rem;
     }
 }
 
@@ -521,10 +543,12 @@
         top: 30px;
         left: 30px
     }
+
     .logo.animated img {
         height: 50px;
         width: auto
     }
+
     .mc-chicken {
         top: 30px;
         right: 30px
@@ -538,6 +562,7 @@
         top: 60px;
         left: 60px
     }
+
     .mc-chicken {
         top: 54px;
         right: 60px
@@ -942,17 +967,20 @@
         height: 90px;
         font-size: 3em
     }
+
     .slidenav .nav-img {
         display: block;
         top: 50%;
         left: -20%;
         width: 100%
     }
+
     .link-mask,
     .link-mask-wrap,
     .link-mask>span {
         height: 90px
     }
+
     .navlinks-wrap {
         left: 50%
     }
@@ -964,15 +992,18 @@
         height: auto;
         padding-top: 250vw
     }
+
     .slidenav li {
         height: 110px;
         font-size: 3.75em
     }
+
     .link-mask,
     .link-mask-wrap,
     .link-mask>span {
         height: 110px
     }
+
     .contact-icon {
         width: 40px;
         height: 40px;
@@ -984,11 +1015,13 @@
     .slidenav li {
         height: 120px
     }
+
     .link-mask,
     .link-mask-wrap,
     .link-mask>span {
         height: 180px
     }
+
     .contact-icon {
         width: 50px;
         height: 50px;
@@ -1002,11 +1035,13 @@
     .slidenav li {
         height: 150px
     }
+
     .link-mask,
     .link-mask-wrap,
     .link-mask>span {
         height: 150px
     }
+
     .mc-chicken {
         font-size: .4em
     }
@@ -1016,6 +1051,7 @@
     #canvas-logo {
         display: none
     }
+
     #main .slidenav:before {
         width: 450vw;
         height: auto;
@@ -1028,17 +1064,20 @@
         height: 90px;
         font-size: 3em
     }
+
     .slidenav .nav-img {
         display: block;
         top: 50%;
         left: -20%;
         width: 100%
     }
+
     .link-mask,
     .link-mask-wrap,
     .link-mask>span {
         height: 90px
     }
+
     .navlinks-wrap {
         left: 50%
     }
@@ -1614,11 +1653,13 @@
         background-color: transparent;
         position: relative
     }
+
     #footer-newsletter .grid-wrap {
         width: 76%;
         margin: 0 auto;
         padding: 0 12%
     }
+
     #footer-newsletter:before {
         content: "";
         display: block;
@@ -1630,6 +1671,7 @@
         width: 100%;
         height: 50%
     }
+
     #footer-newsletter:after {
         content: "";
         display: block;
@@ -1641,13 +1683,16 @@
         width: 100%;
         height: 50%
     }
+
     #newsletter-form {
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap
     }
+
     #newsletter-form #email {
         width: 70%
     }
+
     #newsletter-form #newsletter-submit {
         width: 30%
     }
@@ -1658,9 +1703,11 @@
         -ms-flex-wrap: nowrap;
         flex-wrap: nowrap
     }
+
     #newsletter-form #email {
         width: 70%
     }
+
     #newsletter-form #newsletter-submit {
         width: 30%
     }
@@ -1709,6 +1756,7 @@
         -webkit-transform-origin: 0 0;
         transform-origin: 0 0
     }
+
     to {
         transform: translate(0%, -43%) scale(0.95, 1.05);
         -moz-transform: translate(0%, -43%) scale(0.95, 1.05);
@@ -1730,6 +1778,7 @@
         -webkit-transform-origin: 0 0;
         transform-origin: 0 0
     }
+
     to {
         transform: translate(0%, -43%) scale(0.95, 1.05);
         -moz-transform: translate(0%, -43%) scale(0.95, 1.05);
@@ -3672,34 +3721,42 @@ video {
 }
 
 @-webkit-keyframes bgAnim {
+
     0%,
     6.25% {
         background-color: #252020
     }
+
     12.5%,
     18.75% {
         background-color: #D3708F
     }
+
     25%,
     31.25% {
         background-color: #E0C9C4
     }
+
     37.5%,
     43.75% {
         background-color: #9091D6
     }
+
     50%,
     56.25% {
         background-color: #A7DCEB
     }
+
     62.5%,
     68.75% {
         background-color: #F08282
     }
+
     75%,
     81.25% {
         background-color: #FFCC9F
     }
+
     87.5%,
     93.75% {
         background-color: #FDF790
@@ -3707,34 +3764,42 @@ video {
 }
 
 @keyframes bgAnim {
+
     0%,
     6.25% {
         background-color: #252020
     }
+
     12.5%,
     18.75% {
         background-color: #D3708F
     }
+
     25%,
     31.25% {
         background-color: #E0C9C4
     }
+
     37.5%,
     43.75% {
         background-color: #9091D6
     }
+
     50%,
     56.25% {
         background-color: #A7DCEB
     }
+
     62.5%,
     68.75% {
         background-color: #F08282
     }
+
     75%,
     81.25% {
         background-color: #FFCC9F
     }
+
     87.5%,
     93.75% {
         background-color: #FDF790
@@ -3916,16 +3981,19 @@ video {
         background-size: 100% 100%;
         background-position: center center
     }
+
     25% {
         background: url("../img/projects/storyverse/ux-slide-2.png") no-repeat;
         background-size: 100% 100%;
         background-position: center center
     }
+
     50% {
         background: url("../img/projects/storyverse/ux-slide-3.png") no-repeat;
         background-size: 100% 100%;
         background-position: center center
     }
+
     75% {
         background: url("../img/projects/storyverse/ux-slide-4.png") no-repeat;
         background-size: 100% 100%;
@@ -3939,16 +4007,19 @@ video {
         background-size: 100% 100%;
         background-position: center center
     }
+
     25% {
         background: url("../img/projects/storyverse/ux-slide-2.png") no-repeat;
         background-size: 100% 100%;
         background-position: center center
     }
+
     50% {
         background: url("../img/projects/storyverse/ux-slide-3.png") no-repeat;
         background-size: 100% 100%;
         background-position: center center
     }
+
     75% {
         background: url("../img/projects/storyverse/ux-slide-4.png") no-repeat;
         background-size: 100% 100%;
@@ -4401,6 +4472,7 @@ video {
         -o-transform: rotate(0deg);
         -ms-transform: rotate(0deg)
     }
+
     to {
         transform: rotate(720deg);
         -moz-transform: rotate(720deg);
@@ -4418,6 +4490,7 @@ video {
         -o-transform: rotate(0deg);
         -ms-transform: rotate(0deg)
     }
+
     to {
         transform: rotate(720deg);
         -moz-transform: rotate(720deg);
@@ -4559,10 +4632,12 @@ video {
     0% {
         opacity: 0
     }
+
     5%,
     80% {
         opacity: 1
     }
+
     80.1%,
     to {
         opacity: 0
@@ -4573,10 +4648,12 @@ video {
     0% {
         opacity: 0
     }
+
     5%,
     80% {
         opacity: 1
     }
+
     80.1%,
     to {
         opacity: 0
@@ -4584,14 +4661,17 @@ video {
 }
 
 @-webkit-keyframes logoSlide2 {
+
     0%,
     25% {
         opacity: 0
     }
+
     30%,
     80% {
         opacity: 1
     }
+
     80.1%,
     to {
         opacity: 0
@@ -4599,14 +4679,17 @@ video {
 }
 
 @keyframes logoSlide2 {
+
     0%,
     25% {
         opacity: 0
     }
+
     30%,
     80% {
         opacity: 1
     }
+
     80.1%,
     to {
         opacity: 0
@@ -4614,14 +4697,17 @@ video {
 }
 
 @-webkit-keyframes logoSlide3 {
+
     0%,
     50% {
         opacity: 0
     }
+
     55%,
     80% {
         opacity: 1
     }
+
     80.1%,
     to {
         opacity: 0
@@ -4629,14 +4715,17 @@ video {
 }
 
 @keyframes logoSlide3 {
+
     0%,
     50% {
         opacity: 0
     }
+
     55%,
     80% {
         opacity: 1
     }
+
     80.1%,
     to {
         opacity: 0
@@ -4934,10 +5023,12 @@ video {
     0% {
         opacity: 0
     }
+
     5%,
     80% {
         opacity: 1
     }
+
     80.1%,
     to {
         opacity: 0
@@ -4945,14 +5036,17 @@ video {
 }
 
 @keyframes logoSlide2 {
+
     0%,
     16% {
         opacity: 0
     }
+
     21%,
     84% {
         opacity: 1
     }
+
     84.1%,
     to {
         opacity: 0
@@ -4960,14 +5054,17 @@ video {
 }
 
 @keyframes logoSlide3 {
+
     0%,
     32% {
         opacity: 0
     }
+
     37%,
     84% {
         opacity: 1
     }
+
     84.1%,
     to {
         opacity: 0
@@ -4975,14 +5072,17 @@ video {
 }
 
 @-webkit-keyframes logoSlide4 {
+
     0%,
     48% {
         opacity: 0
     }
+
     53%,
     84% {
         opacity: 1
     }
+
     84.1%,
     to {
         opacity: 0
@@ -4990,14 +5090,17 @@ video {
 }
 
 @keyframes logoSlide4 {
+
     0%,
     48% {
         opacity: 0
     }
+
     53%,
     84% {
         opacity: 1
     }
+
     84.1%,
     to {
         opacity: 0
@@ -5005,14 +5108,17 @@ video {
 }
 
 @-webkit-keyframes logoSlide5 {
+
     0%,
     64% {
         opacity: 0
     }
+
     69%,
     84% {
         opacity: 1
     }
+
     84.1%,
     to {
         opacity: 0
@@ -5020,14 +5126,17 @@ video {
 }
 
 @keyframes logoSlide5 {
+
     0%,
     64% {
         opacity: 0
     }
+
     69%,
     84% {
         opacity: 1
     }
+
     84.1%,
     to {
         opacity: 0
@@ -5442,6 +5551,7 @@ video {
         -o-transform: rotate(0deg);
         -ms-transform: rotate(0deg)
     }
+
     to {
         transform: rotate(360deg);
         -moz-transform: rotate(360deg);
@@ -5459,6 +5569,7 @@ video {
         -o-transform: rotate(0deg);
         -ms-transform: rotate(0deg)
     }
+
     to {
         transform: rotate(360deg);
         -moz-transform: rotate(360deg);
@@ -5476,6 +5587,7 @@ video {
         -o-transform: translate(0%, -50%) rotate(0deg);
         -ms-transform: translate(0%, -50%) rotate(0deg)
     }
+
     to {
         transform: translate(0%, -50%) rotate(-360deg);
         -moz-transform: translate(0%, -50%) rotate(-360deg);
@@ -5493,6 +5605,7 @@ video {
         -o-transform: translate(0%, -50%) rotate(0deg);
         -ms-transform: translate(0%, -50%) rotate(0deg)
     }
+
     to {
         transform: translate(0%, -50%) rotate(-360deg);
         -moz-transform: translate(0%, -50%) rotate(-360deg);
@@ -6012,46 +6125,57 @@ video {
     .project .carousel-wrap {
         margin-top: -4em
     }
+
     .project .carousel-wrap .lSAction>a {
         width: 10%;
         height: auto;
         padding-top: 10%
     }
+
     .project .project-heading .scroll-line {
         display: none
     }
+
     .project .project-heading .shape-morph {
         width: 150%;
         left: 70%;
         top: 40vh
     }
+
     .project .project-heading .live-link a:before {
         display: none
     }
+
     .project .project-heading .live-link a {
         text-decoration: underline
     }
+
     .project .details {
         font-size: .7em;
         left: 30vw;
         top: 70vh
     }
+
     .project .count {
         font-size: .7em;
         left: 30vw
     }
+
     .project .project-h2 h2 {
         font-size: 10vw;
         margin: 2rem 0 0rem
     }
+
     .project .title-caption {
         font-size: 16px
     }
+
     .project .live-link {
         top: 90vh;
         width: 60vw;
         left: 30vw
     }
+
     .project .live-link a:hover span,
     .project .live-link a span {
         transform: translate(0%, -50%) scale(0.01, 1);
@@ -6060,6 +6184,7 @@ video {
         -o-transform: translate(0%, -50%) scale(0.01, 1);
         -ms-transform: translate(0%, -50%) scale(0.01, 1)
     }
+
     .project .live-link a:before,
     .project .live-link a:hover:before {
         right: 30%;
@@ -6069,6 +6194,7 @@ video {
         -o-transform: translate(0%, -50%) scale(1, 1);
         -ms-transform: translate(0%, -50%) scale(1, 1)
     }
+
     .project .live-link a:after,
     .project .live-link a:hover:after {
         right: 30%;
@@ -6078,61 +6204,76 @@ video {
         -o-transform: translate(0%, -50%) scale(0.5);
         -ms-transform: translate(0%, -50%) scale(0.5)
     }
+
     .project .chapter-desc {
         padding-top: 1em
     }
+
     .project .chapter-icon {
         width: 15vw
     }
+
     .project #development .chapter-icon {
         top: -100%;
         width: 17vw
     }
+
     .project .btn-play {
         width: 25%;
         height: 25%;
         padding-top: 25%
     }
+
     .project .btn-play:after {
         background-size: 25%
     }
+
     .project .photoshoot .rotating-circle-wrap {
         top: 45%;
         width: 40%
     }
+
     .project .photoshoot .rotating-circle {
         animation: none;
         -moz-animation: none;
         -webkit-animation: none;
         -o-animation: none
     }
+
     .project .photoshoot .circle-content {
         animation: none;
         -moz-animation: none;
         -webkit-animation: none;
         -o-animation: none
     }
+
     .project .photoshoot .circle-content span:first-of-type {
         font-size: 3em !important
     }
+
     .project .photoshoot .circle-content span:nth-of-type(2) {
         font-size: .9em
     }
+
     .project .photoshoot .circle-content span:nth-of-type(3) {
         line-height: 1.1em
     }
+
     .project .btn-close {
         top: 0%;
         width: 10%;
         height: 10%;
         padding-top: 10%
     }
+
     .project .btn-close:before {
         background-size: 50%
     }
+
     .project .btn-close:after {
         display: none
     }
+
     .project .next-project .next-ico,
     .project .next-project a:hover .next-ico {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -6152,6 +6293,7 @@ video {
         opacity: 1;
         height: auto
     }
+
     .project .next-project a:hover .shape-morph.shape-morph-bottom {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -6162,38 +6304,48 @@ video {
         width: 80%;
         z-index: 1 !important
     }
+
     .project .wrapped-heading h2 {
         font-size: 25vw;
         line-height: 1em
     }
+
     .project .wrapped-heading h2 span {
         display: inline
     }
+
     .project #story .chapter-icon {
         position: absolute;
         top: -20%;
         right: 10%
     }
+
     .project #ux .chapter-icon {
         top: -10%;
         left: 70%
     }
+
     .project-description p {
         font-size: 5vw
     }
+
     .next-project h2 {
         font-size: 2.5em
     }
+
     .project .lSSlideOuter .lSPager.lSpg>li a {
         margin: 15px;
         z-index: 99
     }
+
     #client p {
         font-size: 16px
     }
+
     #client .quote {
         font-size: 7vw
     }
+
     #demo .prototype {
         border-radius: 20px;
         overflow: hidden;
@@ -6201,22 +6353,27 @@ video {
         -moz-box-shadow: 0px 0px 0px 10px #231F20;
         box-shadow: 0px 0px 0px 10px #231F20
     }
+
     #sales .sale-item p {
         margin-top: .5em;
         font-size: 16px
     }
+
     #sales .sale-item div {
         font-size: 12vw;
         line-height: 1em
     }
+
     #sales .sale-item i {
         width: 14px;
         margin: 10px 0 0;
         height: 14px
     }
+
     #awarded .project-h2 h2 {
         margin-bottom: .5em
     }
+
     #awarded .award-list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -6230,475 +6387,601 @@ video {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
     }
+
     #awarded .award-list .item {
         margin-top: 1em;
         width: 40%
     }
+
     #awarded .award-list .item span {
         display: block;
         font-size: 1rem;
         line-height: 1.5rem
     }
+
     #awarded .award-list .a-logo {
         width: 80px
     }
+
     #p-services .relative-content img {
         top: 7vh;
         right: -10%;
         width: 55%
     }
+
     .helias .project-heading img {
         position: absolute
     }
+
     .helias .project-heading img:first-of-type {
         width: 9%;
         top: 15vh;
         left: 20%
     }
+
     .helias .project-heading img:nth-of-type(2) {
         width: 10%;
         top: 25vh;
         left: 8%
     }
+
     .helias .project-heading img:nth-of-type(3) {
         width: 10%;
         top: 45vh;
         left: 23%
     }
+
     .helias .project-heading .shape-morph {
         width: 150%;
         left: 70%;
         top: 40vh
     }
+
     .helias .project-heading .live-link a:before {
         display: none
     }
+
     .helias .project-heading .live-link a {
         text-decoration: underline
     }
+
     .helias #approach .relative-content img {
         top: 10vh;
         right: -5%;
         width: 55%
     }
+
     .helias #approach .img-scroll {
         top: 10vh;
         right: 10%;
         width: 30%
     }
+
     .helias #challenge .relative-content img {
         left: auto;
         right: 10%;
         top: -10vh;
         width: 60%
     }
+
     .helias #challenge .img-wrap img:nth-of-type(2) {
         top: 10vh
     }
+
     .helias #challenge #blends .blends {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         -ms-flex-pack: distribute;
         justify-content: space-around
     }
+
     .helias #challenge #blends .blends div {
         width: 25%;
         padding-bottom: 10vh
     }
+
     .helias #features .distort img:nth-of-type(2) {
         top: 25vh;
         left: 15%;
         width: 9%
     }
+
     .helias #features .distort img:nth-of-type(3) {
         top: 11vh;
         left: 7%;
         width: 9%
     }
+
     .helias #features .videos img:first-of-type {
         top: 30vh;
         right: -10%
     }
+
     .helias #features .videos img:nth-of-type(2) {
         bottom: 32vh;
         right: 60%
     }
+
     .helias #features .basket img:first-of-type {
         top: 15vh
     }
+
     .helias #features .mobile .mobile-screens {
         margin-top: 6vh
     }
+
     .snooze .project-heading h1 {
         left: 20%
     }
+
     .snooze #approach .relative-content img {
         display: none
     }
+
     .snooze #approach .img-scroll {
         top: 5vh;
         right: 5%;
         width: 45%
     }
+
     .snooze #challenge .relative-content img {
         top: 9%;
         right: -5%;
         width: 40%
     }
+
     .snooze #challenge .packaging-1 {
         margin-top: 0;
         padding-top: 20vh
     }
+
     .snooze #challenge .packaging-1 .scrolling-text:first-of-type {
         top: 10vh
     }
+
     .snooze #challenge .packaging-1 .scrolling-text:nth-of-type(2) {
         top: 20vh
     }
+
     .snooze #challenge .packaging-1 .scrolling-text:nth-of-type(3) {
         top: 30vh
     }
+
     .snooze #challenge .packaging-1 img {
         margin-top: 0
     }
+
     .snooze #challenge .packaging-2 {
         margin-top: 20vh;
         padding-bottom: 20vh
     }
+
     .snooze #challenge .packaging-2 .scrolling-text {
         color: #EFF4FF
     }
+
     .snooze #challenge .packaging-2 .scrolling-text:first-of-type {
         bottom: 10vh
     }
+
     .snooze #challenge .packaging-2 .scrolling-text:nth-of-type(2) {
         bottom: 20vh
     }
+
     .snooze #website .relative-content img {
         top: 10vh;
         left: 73%;
         width: 30%
     }
+
     .snooze #website #customers .relative-content img {
         top: 0;
         left: 80%;
         width: 35%
     }
+
     .snooze #treatment .images:before {
         height: 20vh
     }
+
     .snooze #treatment .images:after {
         height: 20vh
     }
+
     .snooze #treatment .images img {
         position: relative;
         z-index: 10
     }
+
     .snooze #treatment .images .cloud:first-of-type {
         display: none
     }
+
     .snooze #treatment .images .cloud:nth-of-type(2) {
         display: none
     }
+
     .betches .project-heading figure {
         left: 5%;
         width: 15%
     }
+
     .betches #story .img-fourth {
         width: 45%;
         left: 50%;
         top: 75%
     }
+
     .betches #ux .offset-top-neg {
         margin-top: 1em
     }
+
     .betches .animated-bg {
         height: 50vh
     }
+
     .betches .shape-morph {
         width: 150%;
         right: -130%
     }
+
     .betches #design .chapter-desc figure {
         display: none
     }
+
     .betches #design .chapter-icon {
         top: -40%;
         left: 45%
     }
+
     .betches .icons .scrolling-text {
         left: 18%;
         top: 50%;
         font-size: 4em
     }
+
     .betches .web-sketch .sketch {
         margin-top: 0em
     }
+
     .betches .video .img-third {
         top: 50%
     }
+
     .betches .video .img-third {
         display: none
     }
+
     .betches .video .img-fourth {
         bottom: 15%
     }
+
     .betches .video .scrolling-text {
         right: -10%
     }
+
     .betches .podcast .img-first {
         width: 25%
     }
+
     .betches #development:before {
         height: 30vh
     }
+
     .betches #development .chapter-icon {
         left: 40%;
         top: -90%
     }
+
     .storyverse .shape-morph {
         width: 150%;
         right: -70%
     }
+
     .storyverse #ux .chapter-icon {
         top: -50%;
         left: 80%
     }
+
     .storyverse #design .chapter-icon {
         top: -60%;
         left: 40%
     }
+
     .storyverse #design .wrapped-img {
         width: 30%;
         left: 70%;
         top: 5em
     }
+
     .storyverse #development .chapter-icon {
         left: 50%;
         top: -90%
     }
+
     .modernmd #story .img-wrap {
         display: block;
         height: auto;
         padding-bottom: 6em
     }
+
     .modernmd #story .img-wrap .img-first {
         display: none
     }
+
     .modernmd #story .img-wrap .img-second {
         position: static;
         width: 50%
     }
+
     .modernmd #story .img-wrap .img-third {
         width: 60%;
         left: 40%
     }
+
     .modernmd #story .img-wrap .img-fourth {
         width: 20%;
         bottom: 0
     }
+
     .modernmd #design .chapter-icon {
         position: absolute;
         left: 70%;
         top: 20vh
     }
+
     .modernmd #design>figure:last-child {
         margin-bottom: -20vh
     }
+
     .modernmd #development .chapter-icon {
         left: 50%
     }
+
     .taylor .shape-morph {
         width: 150%;
         right: -120%;
         top: 50%
     }
+
     .taylor .gradient-box {
         height: 50vh
     }
+
     .taylor #story .chapter-icon {
         top: -25%
     }
+
     .taylor #ux .chapter-icon {
         top: -90%;
         left: 0
     }
+
     .taylor #design .design-color-wrap {
         position: static;
         width: 100%;
         margin: 2em
     }
+
     .taylor #design .envelopes {
         position: static
     }
+
     .taylor #design .brand {
         position: relative
     }
+
     .taylor #design .brand .grid-wrap:first-of-type {
         position: static
     }
+
     .taylor #design .letterhead {
         padding-top: 0
     }
+
     .taylor #design .letterhead .img-second {
         top: -20%;
         right: 10%;
         width: 20%
     }
+
     .taylor #design .bag figure:first-of-type {
         position: absolute;
         top: 20%;
         left: 10%;
         width: 20%
     }
+
     .taylor #design .carousel-wrap {
         margin-top: 0em
     }
+
     .taylor #development .chapter-icon {
         left: 75%
     }
+
     .taylor #development p {
         color: rgba(255, 255, 255, 0.6)
     }
+
     .cornerstone #ux {
         padding-top: 0
     }
+
     .cornerstone #ux .chapter-icon {
         left: 85%;
         top: -95%
     }
+
     .cornerstone #story .img-wrap {
         padding-top: 3em
     }
+
     .cornerstone #story .img-first {
         top: 0
     }
+
     .cornerstone #story .img-third {
         top: 65%
     }
+
     .cornerstone #design .chapter-icon {
         position: absolute;
         top: -35%;
         right: 0
     }
+
     .cornerstone #design .ui-1 {
         height: auto;
         padding-bottom: 0
     }
+
     .cornerstone #design .ui-1 .img-second {
         position: static;
         width: 90%;
         margin: 0 auto;
         margin-bottom: 1em
     }
+
     .cornerstone #design .ui-1 .img-first,
     .cornerstone #design .ui-1 .img-sixth {
         display: none
     }
+
     .cornerstone #design .ui-1 .img-fifth {
         margin-top: 3em;
         width: 75%
     }
+
     .cornerstone #design .ui-2 .img-second {
         display: none
     }
+
     .cornerstone #design .website .img-third {
         display: block
     }
+
     .cornerstone .font-choice {
         padding: 5em 0
     }
+
     .cornerstone .font-choice .img-wrap {
         display: none
     }
+
     .cornerstone .carousel-wrap {
         margin-top: 0
     }
+
     .cornerstone .ui-3 {
         margin-top: -4em
     }
+
     .cornerstone .ui-3 .wrapped-img {
         display: none
     }
+
     .cornerstone #development .chapter-icon {
         left: 50%
     }
+
     .allpro .rotating-circle-wrap {
         top: 50%;
         left: 50%;
         width: 50%
     }
+
     .allpro .rotating-circle .circle-content span:first-of-type {
         font-size: 4em
     }
+
     .allpro .rotating-circle .circle-content span:nth-of-type(2) {
         font-size: 1em;
         letter-spacing: .1em
     }
+
     .allpro .rotating-circle .circle-content span:nth-of-type(3) {
         font-size: .6em
     }
+
     .allpro .shape-morph {
         width: 150%;
         right: -80%
     }
+
     .allpro .photoshoot .img-jump {
         margin-bottom: 1em
     }
+
     .allpro #story .chapter-icon {
         top: -25%
     }
+
     .allpro #story .img-box {
         padding-top: 0
     }
+
     .allpro #ux .chapter-icon {
         top: -75%;
         left: 80%
     }
+
     .allpro #design {
         position: relative
     }
+
     .allpro #design .chapter-icon {
         position: absolute;
         top: 7em;
         left: 70%
     }
+
     .allpro .carousel-wrap {
         margin-top: 0em
     }
+
     .allpro #development .chapter-icon {
         left: 60%
     }
+
     .gts .shape-morph {
         top: 40%;
         width: 140%;
         right: -70%
     }
+
     .gts #story .chapter-icon {
         top: -20%
     }
+
     .gts .boxes {
         margin-top: 4em
     }
+
     .gts .ipad-wrap {
         padding-bottom: 9em
     }
+
     .gts .video-box {
         margin-top: -5em
     }
+
     .gts #development .chapter-icon {
         left: 65%;
         top: -90%
     }
+
     .hennessey .shape-morph {
         top: 40%;
         width: 140%;
         right: -120%
     }
+
     .hennessey #story .chapter-icon {
         left: 55%;
         top: -50%
     }
+
     .hennessey #story .img-wrap .scrolling-horizontal {
         position: absolute;
         top: -50%;
@@ -6706,6 +6989,7 @@ video {
         height: auto;
         padding-top: 50%
     }
+
     .hennessey #story .img-wrap .scrolling-rectangle {
         width: 100%;
         padding-top: 100%;
@@ -6714,37 +6998,46 @@ video {
         z-index: -1;
         border-width: 15px
     }
+
     .hennessey #story .img-wrap .img-second {
         width: 50%;
         right: 0;
         top: 50%
     }
+
     .hennessey #ux .chapter-icon {
         top: -150%;
         left: 50%
     }
+
     .hennessey #design {
         position: relative
     }
+
     .hennessey #design .chapter-icon {
         position: absolute;
         left: 65%;
         top: 10vh
     }
+
     .hennessey .ui-wrap .scrolling-rectangle {
         top: 15vh
     }
+
     .hennessey .stamp .img-first {
         position: static;
         margin-bottom: -5em;
         width: 50%
     }
+
     .hennessey .bg-dark {
         padding-bottom: 30vh
     }
+
     .hennessey .bg-dark .img-first {
         top: 20vh
     }
+
     .hennessey .bg-dark .scrolling-rectangle {
         top: 10vh;
         left: -10%;
@@ -6752,15 +7045,19 @@ video {
         padding-top: 25%;
         border-color: rgba(255, 255, 255, 0.1)
     }
+
     .hennessey .bg-dark .img-third {
         margin-top: 0em
     }
+
     .hennessey .letterhead {
         margin-bottom: -20vh
     }
+
     .hennessey .final-prev {
         margin-top: -20vh
     }
+
     .hennessey #development .chapter-icon {
         left: 55%;
         top: -100%
@@ -7163,9 +7460,11 @@ video {
     0% {
         left: 0
     }
+
     50% {
         left: -15px
     }
+
     to {
         left: 0
     }
@@ -7175,9 +7474,11 @@ video {
     0% {
         left: 0
     }
+
     50% {
         left: -15px
     }
+
     to {
         left: 0
     }
@@ -7187,9 +7488,11 @@ video {
     0% {
         top: 0
     }
+
     50% {
         top: -15px
     }
+
     to {
         top: 0
     }
@@ -7199,9 +7502,11 @@ video {
     0% {
         top: 0
     }
+
     50% {
         top: -15px
     }
+
     to {
         top: 0
     }
@@ -7211,9 +7516,11 @@ video {
     0% {
         left: 0
     }
+
     50% {
         left: 15px
     }
+
     to {
         left: 0
     }
@@ -7223,9 +7530,11 @@ video {
     0% {
         left: 0
     }
+
     50% {
         left: 15px
     }
+
     to {
         left: 0
     }
@@ -7235,9 +7544,11 @@ video {
     0% {
         bottom: 0
     }
+
     50% {
         bottom: -15px
     }
+
     to {
         bottom: 0
     }
@@ -7247,9 +7558,11 @@ video {
     0% {
         bottom: 0
     }
+
     50% {
         bottom: -15px
     }
+
     to {
         bottom: 0
     }
@@ -7438,22 +7751,27 @@ video {
     .js-form-response {
         padding: 10vh 10vw 0
     }
+
     .js-form-response h2 {
         font-size: 2em;
         margin-bottom: .75em
     }
+
     .js-form-response p {
         width: 100%;
         font-size: .8em;
         line-height: 1.5em
     }
+
     .js-form-response .social li {
         margin: 0 .35em
     }
+
     .js-form-response .social a {
         width: 70px;
         height: 70px
     }
+
     .form-close {
         width: 30px !important;
         height: 30px !important;
@@ -8185,9 +8503,11 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         line-height: 2em;
         height: auto
     }
+
     .slider-input {
         font-size: 1.75em
     }
+
     .main-type .noUi-horizontal .noUi-handle {
         width: 48px;
         height: 48px;
@@ -8195,22 +8515,27 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         top: -24px;
         outline: none
     }
+
     .main-type .noUi-horizontal .noUi-handle:hover {
         background-color: #cd3128
     }
+
     .main-type .noUi-horizontal {
         margin-top: 1.75em
     }
+
     .main-type .noUi-handle:before {
         height: 13px;
         width: 13px;
         left: 40%
     }
+
     .main-type .noUi-handle:after {
         height: 13px;
         width: 13px;
         left: 70%
     }
+
     .main-type p.section-caption {
         font-size: .6em;
         margin: 2em 0 0
@@ -8218,39 +8543,49 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
 }
 
 @media only screen and (min-width:48em) {
+
     #main-form h1,
     #main-form h2 {
         font-size: 2.75em !important
     }
+
     #main-form h3 {
         margin-bottom: 0em
     }
+
     #main-form .section-caption {
         font-size: .65em
     }
+
     .form-icon {
         margin: 0 13% 1.25em
     }
 }
 
 @media only screen and (min-width:64em) {
+
     #main-form h1,
     #main-form h2 {
         font-size: 3.75em !important
     }
+
     #main-form h3 {
         font-size: .8333em;
         margin-bottom: 0em
     }
+
     #main-form .section-caption {
         font-size: .5em
     }
+
     #main-form .step {
         margin-top: 20vh
     }
+
     .form-icon {
         margin: 0 13% 1.5em
     }
+
     .form-pager {
         display: block;
         position: fixed;
@@ -8262,6 +8597,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         -o-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%)
     }
+
     .form-pager li {
         position: relative;
         z-index: 999;
@@ -8277,11 +8613,13 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         width: 3em;
         font-size: .5em
     }
+
     .form-pager li a {
         text-align: center;
         position: relative;
         display: block
     }
+
     .form-pager li a:before {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -8305,6 +8643,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         background-color: #D6372E;
         z-index: -1
     }
+
     .form-pager li a.active {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -8312,6 +8651,7 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-handle {
         -o-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         color: #fff
     }
+
     .form-pager li a.active:before {
         transform: translate(-50%, -50%) scale(1);
         -moz-transform: translate(-50%, -50%) scale(1);
@@ -8564,7 +8904,7 @@ pre {
 }
 
 q {
-    quotes: "\201C" "\201D" "\2018" "\2019"
+    quotes: "\201C""\201D""\2018""\2019"
 }
 
 small {
@@ -8694,6 +9034,7 @@ table {
         -webkit-transform: scale(0, 1) rotateX(10deg) rotateY(90deg) rotateZ(10deg) translateY(300px);
         transform: scale(0, 1) rotateX(10deg) rotateY(90deg) rotateZ(10deg) translateY(300px)
     }
+
     to {
         -webkit-transform: scale(1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateY(0);
         transform: scale(1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateY(0)
@@ -8706,6 +9047,7 @@ table {
         -webkit-transform: scale(0, 1) rotateX(10deg) rotateY(90deg) rotateZ(10deg) translateY(300px);
         transform: scale(0, 1) rotateX(10deg) rotateY(90deg) rotateZ(10deg) translateY(300px)
     }
+
     to {
         -webkit-transform: scale(1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateY(0);
         transform: scale(1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateY(0)
@@ -8723,6 +9065,7 @@ table {
         -webkit-transform: scale(0.1, 1) rotateX(40deg) rotateY(0deg) rotateZ(9deg) translateY(150px);
         transform: scale(0.1, 1) rotateX(40deg) rotateY(0deg) rotateZ(9deg) translateY(150px)
     }
+
     to {
         opacity: 1;
         -webkit-transform: scale(1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateY(0);
@@ -8736,6 +9079,7 @@ table {
         -webkit-transform: scale(0.1, 1) rotateX(40deg) rotateY(0deg) rotateZ(9deg) translateY(150px);
         transform: scale(0.1, 1) rotateX(40deg) rotateY(0deg) rotateZ(9deg) translateY(150px)
     }
+
     to {
         opacity: 1;
         -webkit-transform: scale(1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateY(0);
@@ -8754,6 +9098,7 @@ table {
         -webkit-transform: scale(0.35, 0.25) rotateX(15deg) rotateZ(20deg) translateY(150px) translateX(-50px);
         transform: scale(0.35, 0.25) rotateX(15deg) rotateZ(20deg) translateY(150px) translateX(-50px)
     }
+
     to {
         opacity: 1;
         -webkit-transform: scale(1, 1) rotateX(0deg) rotateZ(0deg) translateY(0) translateX(0);
@@ -8767,6 +9112,7 @@ table {
         -webkit-transform: scale(0.35, 0.25) rotateX(15deg) rotateZ(20deg) translateY(150px) translateX(-50px);
         transform: scale(0.35, 0.25) rotateX(15deg) rotateZ(20deg) translateY(150px) translateX(-50px)
     }
+
     to {
         opacity: 1;
         -webkit-transform: scale(1, 1) rotateX(0deg) rotateZ(0deg) translateY(0) translateX(0);
@@ -8783,6 +9129,7 @@ table {
     0% {
         opacity: 0
     }
+
     to {
         opacity: 1
     }
@@ -8792,6 +9139,7 @@ table {
     0% {
         opacity: 0
     }
+
     to {
         opacity: 1
     }
@@ -8808,6 +9156,7 @@ table {
         transform: translateX(-300px);
         opacity: 0
     }
+
     to {
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
@@ -8821,6 +9170,7 @@ table {
         transform: translateX(-300px);
         opacity: 0
     }
+
     to {
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
@@ -8839,6 +9189,7 @@ table {
         transform: translateY(60px);
         opacity: 0
     }
+
     to {
         -webkit-transform: translateY(0px);
         transform: translateY(0px);
@@ -8852,6 +9203,7 @@ table {
         transform: translateY(60px);
         opacity: 0
     }
+
     to {
         -webkit-transform: translateY(0px);
         transform: translateY(0px);
@@ -8870,6 +9222,7 @@ table {
         transform: translateX(300px);
         opacity: 0
     }
+
     to {
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
@@ -8883,6 +9236,7 @@ table {
         transform: translateX(300px);
         opacity: 0
     }
+
     to {
         -webkit-transform: translateX(0px);
         transform: translateX(0px);
@@ -9213,6 +9567,7 @@ table {
     .container {
         width: 49rem
     }
+
     .col-sm,
     .col-sm-1,
     .col-sm-2,
@@ -9247,36 +9602,47 @@ table {
         padding-right: 0.5rem;
         padding-left: 0.5rem
     }
+
     .box {
         padding-bottom: 60px
     }
+
     .offset-top {
         padding-top: 120px
     }
+
     .offset-bottom {
         padding-bottom: 120px
     }
+
     .offset-both {
         padding: 120px 0
     }
+
     .offset-top-md {
         padding-top: 100px
     }
+
     .offset-bottom-md {
         padding-bottom: 100px
     }
+
     .offset-both-md {
         padding: 100px 0
     }
+
     .offset-top-sm {
         padding-top: 80px
     }
+
     .offset-bottom-sm {
         padding-bottom: 80px
     }
+
     .offset-both-sm {
         padding: 80px 0
     }
+
     .col-sm {
         -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -9285,149 +9651,183 @@ table {
         flex-basis: 0;
         max-width: 100%
     }
+
     .col-sm-1 {
         -ms-flex-preferred-size: 8.33333333%;
         flex-basis: 8.33333333%;
         max-width: 8.33333333%
     }
+
     .col-sm-2 {
         -ms-flex-preferred-size: 16.66666667%;
         flex-basis: 16.66666667%;
         max-width: 16.66666667%
     }
+
     .col-sm-3 {
         -ms-flex-preferred-size: 25%;
         flex-basis: 25%;
         max-width: 25%
     }
+
     .col-sm-4 {
         -ms-flex-preferred-size: 33.33333333%;
         flex-basis: 33.33333333%;
         max-width: 33.33333333%
     }
+
     .col-sm-5 {
         -ms-flex-preferred-size: 41.66666667%;
         flex-basis: 41.66666667%;
         max-width: 41.66666667%
     }
+
     .col-sm-6 {
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
         max-width: 50%
     }
+
     .col-sm-7 {
         -ms-flex-preferred-size: 58.33333333%;
         flex-basis: 58.33333333%;
         max-width: 58.33333333%
     }
+
     .col-sm-8 {
         -ms-flex-preferred-size: 66.66666667%;
         flex-basis: 66.66666667%;
         max-width: 66.66666667%
     }
+
     .col-sm-9 {
         -ms-flex-preferred-size: 75%;
         flex-basis: 75%;
         max-width: 75%
     }
+
     .col-sm-10 {
         -ms-flex-preferred-size: 83.33333333%;
         flex-basis: 83.33333333%;
         max-width: 83.33333333%
     }
+
     .col-sm-11 {
         -ms-flex-preferred-size: 91.66666667%;
         flex-basis: 91.66666667%;
         max-width: 91.66666667%
     }
+
     .col-sm-12 {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         max-width: 100%
     }
+
     .col-sm-offset-0 {
         margin-left: 0
     }
+
     .col-sm-offset-1 {
         margin-left: 8.33333333%
     }
+
     .col-sm-offset-2 {
         margin-left: 16.66666667%
     }
+
     .col-sm-offset-3 {
         margin-left: 25%
     }
+
     .col-sm-offset-4 {
         margin-left: 33.33333333%
     }
+
     .col-sm-offset-5 {
         margin-left: 41.66666667%
     }
+
     .col-sm-offset-6 {
         margin-left: 50%
     }
+
     .col-sm-offset-7 {
         margin-left: 58.33333333%
     }
+
     .col-sm-offset-8 {
         margin-left: 66.66666667%
     }
+
     .col-sm-offset-9 {
         margin-left: 75%
     }
+
     .col-sm-offset-10 {
         margin-left: 83.33333333%
     }
+
     .col-sm-offset-11 {
         margin-left: 91.66666667%
     }
+
     .start-sm {
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
         text-align: start
     }
+
     .center-sm {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
         text-align: center
     }
+
     .end-sm {
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: flex-end;
         text-align: end
     }
+
     .top-sm {
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: flex-start
     }
+
     .middle-sm {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center
     }
+
     .bottom-sm {
         -webkit-box-align: end;
         -ms-flex-align: end;
         align-items: flex-end
     }
+
     .around-sm {
         -ms-flex-pack: distribute;
         justify-content: space-around
     }
+
     .between-sm {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between
     }
+
     .first-sm {
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
         order: -1
     }
+
     .last-sm {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -9439,6 +9839,7 @@ table {
     .container {
         width: 65rem
     }
+
     .col-md,
     .col-md-1,
     .col-md-2,
@@ -9473,39 +9874,51 @@ table {
         padding-right: 0.5rem;
         padding-left: 0.5rem
     }
+
     .box {
         padding-bottom: 90px
     }
+
     .offset-top {
         padding-top: 180px
     }
+
     .offset-bottom {
         padding-bottom: 180px
     }
+
     .offset-bottom-huge {
         padding-bottom: 40vh
     }
+
     .offset-both {
         padding: 180px 0
     }
+
     .offset-top-md {
         padding-top: 150px
     }
+
     .offset-bottom-md {
         padding-bottom: 150px
     }
+
     .offset-both-md {
         padding: 150px 0
     }
+
     .offset-top-sm {
         padding-top: 90px
     }
+
     .offset-bottom-sm {
         padding-bottom: 90px
     }
+
     .offset-both-sm {
         padding: 90px 0
     }
+
     .col-md {
         -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -9514,149 +9927,183 @@ table {
         flex-basis: 0;
         max-width: 100%
     }
+
     .col-md-1 {
         -ms-flex-preferred-size: 8.33333333%;
         flex-basis: 8.33333333%;
         max-width: 8.33333333%
     }
+
     .col-md-2 {
         -ms-flex-preferred-size: 16.66666667%;
         flex-basis: 16.66666667%;
         max-width: 16.66666667%
     }
+
     .col-md-3 {
         -ms-flex-preferred-size: 25%;
         flex-basis: 25%;
         max-width: 25%
     }
+
     .col-md-4 {
         -ms-flex-preferred-size: 33.33333333%;
         flex-basis: 33.33333333%;
         max-width: 33.33333333%
     }
+
     .col-md-5 {
         -ms-flex-preferred-size: 41.66666667%;
         flex-basis: 41.66666667%;
         max-width: 41.66666667%
     }
+
     .col-md-6 {
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
         max-width: 50%
     }
+
     .col-md-7 {
         -ms-flex-preferred-size: 58.33333333%;
         flex-basis: 58.33333333%;
         max-width: 58.33333333%
     }
+
     .col-md-8 {
         -ms-flex-preferred-size: 66.66666667%;
         flex-basis: 66.66666667%;
         max-width: 66.66666667%
     }
+
     .col-md-9 {
         -ms-flex-preferred-size: 75%;
         flex-basis: 75%;
         max-width: 75%
     }
+
     .col-md-10 {
         -ms-flex-preferred-size: 83.33333333%;
         flex-basis: 83.33333333%;
         max-width: 83.33333333%
     }
+
     .col-md-11 {
         -ms-flex-preferred-size: 91.66666667%;
         flex-basis: 91.66666667%;
         max-width: 91.66666667%
     }
+
     .col-md-12 {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         max-width: 100%
     }
+
     .col-md-offset-0 {
         margin-left: 0
     }
+
     .col-md-offset-1 {
         margin-left: 8.33333333%
     }
+
     .col-md-offset-2 {
         margin-left: 16.66666667%
     }
+
     .col-md-offset-3 {
         margin-left: 25%
     }
+
     .col-md-offset-4 {
         margin-left: 33.33333333%
     }
+
     .col-md-offset-5 {
         margin-left: 41.66666667%
     }
+
     .col-md-offset-6 {
         margin-left: 50%
     }
+
     .col-md-offset-7 {
         margin-left: 58.33333333%
     }
+
     .col-md-offset-8 {
         margin-left: 66.66666667%
     }
+
     .col-md-offset-9 {
         margin-left: 75%
     }
+
     .col-md-offset-10 {
         margin-left: 83.33333333%
     }
+
     .col-md-offset-11 {
         margin-left: 91.66666667%
     }
+
     .start-md {
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
         text-align: start
     }
+
     .center-md {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
         text-align: center
     }
+
     .end-md {
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: flex-end;
         text-align: end
     }
+
     .top-md {
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: flex-start
     }
+
     .middle-md {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center
     }
+
     .bottom-md {
         -webkit-box-align: end;
         -ms-flex-align: end;
         align-items: flex-end
     }
+
     .around-md {
         -ms-flex-pack: distribute;
         justify-content: space-around
     }
+
     .between-md {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between
     }
+
     .first-md {
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
         order: -1
     }
+
     .last-md {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -9668,6 +10115,7 @@ table {
     .container {
         width: 76rem
     }
+
     .col-lg,
     .col-lg-1,
     .col-lg-2,
@@ -9702,39 +10150,51 @@ table {
         padding-right: 0.5rem;
         padding-left: 0.5rem
     }
+
     .box {
         padding-bottom: 120px
     }
+
     .offset-top {
         padding-top: 230px
     }
+
     .offset-bottom {
         padding-bottom: 230px
     }
+
     .offset-bottom-huge {
         padding-bottom: 50vh
     }
+
     .offset-both {
         padding: 230px 0
     }
+
     .offset-top-md {
         padding-top: 180px
     }
+
     .offset-bottom-md {
         padding-bottom: 180px
     }
+
     .offset-both-md {
         padding: 180px 0
     }
+
     .offset-top-sm {
         padding-top: 120px
     }
+
     .offset-bottom-sm {
         padding-bottom: 120px
     }
+
     .offset-both-sm {
         padding: 120px 0
     }
+
     .col-lg {
         -webkit-box-flex: 1;
         -ms-flex-positive: 1;
@@ -9743,149 +10203,183 @@ table {
         flex-basis: 0;
         max-width: 100%
     }
+
     .col-lg-1 {
         -ms-flex-preferred-size: 8.33333333%;
         flex-basis: 8.33333333%;
         max-width: 8.33333333%
     }
+
     .col-lg-2 {
         -ms-flex-preferred-size: 16.66666667%;
         flex-basis: 16.66666667%;
         max-width: 16.66666667%
     }
+
     .col-lg-3 {
         -ms-flex-preferred-size: 25%;
         flex-basis: 25%;
         max-width: 25%
     }
+
     .col-lg-4 {
         -ms-flex-preferred-size: 33.33333333%;
         flex-basis: 33.33333333%;
         max-width: 33.33333333%
     }
+
     .col-lg-5 {
         -ms-flex-preferred-size: 41.66666667%;
         flex-basis: 41.66666667%;
         max-width: 41.66666667%
     }
+
     .col-lg-6 {
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
         max-width: 50%
     }
+
     .col-lg-7 {
         -ms-flex-preferred-size: 58.33333333%;
         flex-basis: 58.33333333%;
         max-width: 58.33333333%
     }
+
     .col-lg-8 {
         -ms-flex-preferred-size: 66.66666667%;
         flex-basis: 66.66666667%;
         max-width: 66.66666667%
     }
+
     .col-lg-9 {
         -ms-flex-preferred-size: 75%;
         flex-basis: 75%;
         max-width: 75%
     }
+
     .col-lg-10 {
         -ms-flex-preferred-size: 83.33333333%;
         flex-basis: 83.33333333%;
         max-width: 83.33333333%
     }
+
     .col-lg-11 {
         -ms-flex-preferred-size: 91.66666667%;
         flex-basis: 91.66666667%;
         max-width: 91.66666667%
     }
+
     .col-lg-12 {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         max-width: 100%
     }
+
     .col-lg-offset-0 {
         margin-left: 0
     }
+
     .col-lg-offset-1 {
         margin-left: 8.33333333%
     }
+
     .col-lg-offset-2 {
         margin-left: 16.66666667%
     }
+
     .col-lg-offset-3 {
         margin-left: 25%
     }
+
     .col-lg-offset-4 {
         margin-left: 33.33333333%
     }
+
     .col-lg-offset-5 {
         margin-left: 41.66666667%
     }
+
     .col-lg-offset-6 {
         margin-left: 50%
     }
+
     .col-lg-offset-7 {
         margin-left: 58.33333333%
     }
+
     .col-lg-offset-8 {
         margin-left: 66.66666667%
     }
+
     .col-lg-offset-9 {
         margin-left: 75%
     }
+
     .col-lg-offset-10 {
         margin-left: 83.33333333%
     }
+
     .col-lg-offset-11 {
         margin-left: 91.66666667%
     }
+
     .start-lg {
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
         text-align: start
     }
+
     .center-lg {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
         text-align: center
     }
+
     .end-lg {
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: flex-end;
         text-align: end
     }
+
     .top-lg {
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: flex-start
     }
+
     .middle-lg {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center
     }
+
     .bottom-lg {
         -webkit-box-align: end;
         -ms-flex-align: end;
         align-items: flex-end
     }
+
     .around-lg {
         -ms-flex-pack: distribute;
         justify-content: space-around
     }
+
     .between-lg {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between
     }
+
     .first-lg {
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
         order: -1
     }
+
     .last-lg {
         -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -10082,6 +10576,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     20% {
         transform: scale(1, 1);
         -moz-transform: scale(1, 1);
@@ -10091,6 +10586,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     20.1% {
         transform: scale(1, 1);
         -moz-transform: scale(1, 1);
@@ -10100,6 +10596,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left bottom;
         transform-origin: left bottom
     }
+
     60% {
         transform: scale(1, 0);
         -moz-transform: scale(1, 0);
@@ -10109,6 +10606,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left bottom;
         transform-origin: left bottom
     }
+
     to {
         transform: scale(1, 0);
         -moz-transform: scale(1, 0);
@@ -10130,6 +10628,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     20% {
         transform: scale(1, 1);
         -moz-transform: scale(1, 1);
@@ -10139,6 +10638,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     20.1% {
         transform: scale(1, 1);
         -moz-transform: scale(1, 1);
@@ -10148,6 +10648,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left bottom;
         transform-origin: left bottom
     }
+
     60% {
         transform: scale(1, 0);
         -moz-transform: scale(1, 0);
@@ -10157,6 +10658,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left bottom;
         transform-origin: left bottom
     }
+
     to {
         transform: scale(1, 0);
         -moz-transform: scale(1, 0);
@@ -10178,6 +10680,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     40% {
         transform: scale(1, 0);
         -moz-transform: scale(1, 0);
@@ -10187,6 +10690,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     80% {
         transform: scale(1, 1);
         -moz-transform: scale(1, 1);
@@ -10196,6 +10700,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     80.1% {
         transform: scale(1, 1);
         -moz-transform: scale(1, 1);
@@ -10205,6 +10710,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left bottom;
         transform-origin: left bottom
     }
+
     to {
         transform: scale(1, 0);
         -moz-transform: scale(1, 0);
@@ -10226,6 +10732,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     40% {
         transform: scale(1, 0);
         -moz-transform: scale(1, 0);
@@ -10235,6 +10742,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     80% {
         transform: scale(1, 1);
         -moz-transform: scale(1, 1);
@@ -10244,6 +10752,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left top;
         transform-origin: left top
     }
+
     80.1% {
         transform: scale(1, 1);
         -moz-transform: scale(1, 1);
@@ -10253,6 +10762,7 @@ a.text-link:hover:before {
         -webkit-transform-origin: left bottom;
         transform-origin: left bottom
     }
+
     to {
         transform: scale(1, 0);
         -moz-transform: scale(1, 0);
@@ -10976,6 +11486,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) scale(1);
         -ms-transform: translate(-50%, -50%) scale(1)
     }
+
     5% {
         transform: translate(-50%, -50%) scale(0.8);
         -moz-transform: translate(-50%, -50%) scale(0.8);
@@ -10983,6 +11494,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) scale(0.8);
         -ms-transform: translate(-50%, -50%) scale(0.8)
     }
+
     25% {
         transform: translate(50%, -50%) scale(0.8);
         -moz-transform: translate(50%, -50%) scale(0.8);
@@ -10990,6 +11502,7 @@ header .header-description {
         -o-transform: translate(50%, -50%) scale(0.8);
         -ms-transform: translate(50%, -50%) scale(0.8)
     }
+
     30% {
         transform: translate(50%, -50%) scale(1);
         -moz-transform: translate(50%, -50%) scale(1);
@@ -10997,6 +11510,7 @@ header .header-description {
         -o-transform: translate(50%, -50%) scale(1);
         -ms-transform: translate(50%, -50%) scale(1)
     }
+
     40% {
         transform: translate(-50%, -50%) scale(1);
         -moz-transform: translate(-50%, -50%) scale(1);
@@ -11004,6 +11518,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) scale(1);
         -ms-transform: translate(-50%, -50%) scale(1)
     }
+
     45% {
         transform: translate(-50%, -50%) scale(0.8);
         -moz-transform: translate(-50%, -50%) scale(0.8);
@@ -11011,6 +11526,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) scale(0.8);
         -ms-transform: translate(-50%, -50%) scale(0.8)
     }
+
     60% {
         transform: translate(-150%, -50%) scale(0.8);
         -moz-transform: translate(-150%, -50%) scale(0.8);
@@ -11018,6 +11534,7 @@ header .header-description {
         -o-transform: translate(-150%, -50%) scale(0.8);
         -ms-transform: translate(-150%, -50%) scale(0.8)
     }
+
     65% {
         transform: translate(-150%, -50%) scale(1);
         -moz-transform: translate(-150%, -50%) scale(1);
@@ -11025,6 +11542,7 @@ header .header-description {
         -o-transform: translate(-150%, -50%) scale(1);
         -ms-transform: translate(-150%, -50%) scale(1)
     }
+
     75%,
     to {
         transform: translate(-50%, -50%) scale(1);
@@ -11043,6 +11561,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) scale(1);
         -ms-transform: translate(-50%, -50%) scale(1)
     }
+
     5% {
         transform: translate(-50%, -50%) scale(0.8);
         -moz-transform: translate(-50%, -50%) scale(0.8);
@@ -11050,6 +11569,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) scale(0.8);
         -ms-transform: translate(-50%, -50%) scale(0.8)
     }
+
     25% {
         transform: translate(50%, -50%) scale(0.8);
         -moz-transform: translate(50%, -50%) scale(0.8);
@@ -11057,6 +11577,7 @@ header .header-description {
         -o-transform: translate(50%, -50%) scale(0.8);
         -ms-transform: translate(50%, -50%) scale(0.8)
     }
+
     30% {
         transform: translate(50%, -50%) scale(1);
         -moz-transform: translate(50%, -50%) scale(1);
@@ -11064,6 +11585,7 @@ header .header-description {
         -o-transform: translate(50%, -50%) scale(1);
         -ms-transform: translate(50%, -50%) scale(1)
     }
+
     40% {
         transform: translate(-50%, -50%) scale(1);
         -moz-transform: translate(-50%, -50%) scale(1);
@@ -11071,6 +11593,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) scale(1);
         -ms-transform: translate(-50%, -50%) scale(1)
     }
+
     45% {
         transform: translate(-50%, -50%) scale(0.8);
         -moz-transform: translate(-50%, -50%) scale(0.8);
@@ -11078,6 +11601,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) scale(0.8);
         -ms-transform: translate(-50%, -50%) scale(0.8)
     }
+
     60% {
         transform: translate(-150%, -50%) scale(0.8);
         -moz-transform: translate(-150%, -50%) scale(0.8);
@@ -11085,6 +11609,7 @@ header .header-description {
         -o-transform: translate(-150%, -50%) scale(0.8);
         -ms-transform: translate(-150%, -50%) scale(0.8)
     }
+
     65% {
         transform: translate(-150%, -50%) scale(1);
         -moz-transform: translate(-150%, -50%) scale(1);
@@ -11092,6 +11617,7 @@ header .header-description {
         -o-transform: translate(-150%, -50%) scale(1);
         -ms-transform: translate(-150%, -50%) scale(1)
     }
+
     75%,
     to {
         transform: translate(-50%, -50%) scale(1);
@@ -11381,6 +11907,7 @@ header .header-description {
         overflow: hidden;
         position: relative
     }
+
     #bottom-team .studio-team-link {
         font-size: 12vw;
         transform: translate(-50%, 0%);
@@ -11389,6 +11916,7 @@ header .header-description {
         -o-transform: translate(-50%, 0%);
         -ms-transform: translate(-50%, 0%)
     }
+
     #bottom-team .studio-team-img {
         position: static;
         transform: translateX(0);
@@ -11397,6 +11925,7 @@ header .header-description {
         -o-transform: translateX(0);
         -ms-transform: translateX(0)
     }
+
     #bottom-team.active .studio-team-img {
         transform: translateY(50%) scale(0.8);
         -moz-transform: translateY(50%) scale(0.8);
@@ -11404,6 +11933,7 @@ header .header-description {
         -o-transform: translateY(50%) scale(0.8);
         -ms-transform: translateY(50%) scale(0.8)
     }
+
     #bottom-team.active .studio-team-link {
         transform: translate(-50%, -65%);
         -moz-transform: translate(-50%, -65%);
@@ -11411,6 +11941,7 @@ header .header-description {
         -o-transform: translate(-50%, -65%);
         -ms-transform: translate(-50%, -65%)
     }
+
     #bottom-team.active a:before {
         -webkit-transition-delay: 0.15s;
         -moz-transition-delay: 0.15s;
@@ -11579,20 +12110,24 @@ header .header-description {
 }
 
 @-webkit-keyframes particleFade {
+
     0%,
     75% {
         opacity: 1
     }
+
     to {
         opacity: 0
     }
 }
 
 @keyframes particleFade {
+
     0%,
     75% {
         opacity: 1
     }
+
     to {
         opacity: 0
     }
@@ -11837,6 +12372,7 @@ header .header-description {
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     to {
         transform: translateX(-95%);
         -moz-transform: translateX(-95%);
@@ -11854,6 +12390,7 @@ header .header-description {
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     to {
         transform: translateX(-95%);
         -moz-transform: translateX(-95%);
@@ -11871,6 +12408,7 @@ header .header-description {
         -o-transform: translateX(-95%);
         -ms-transform: translateX(-95%)
     }
+
     to {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -11888,6 +12426,7 @@ header .header-description {
         -o-transform: translateX(-95%);
         -ms-transform: translateX(-95%)
     }
+
     to {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -11966,34 +12505,43 @@ header .header-description {
         top: 50%;
         left: -30%
     }
+
     #wip .wip-heading h2 {
         padding: 10vh 0 0
     }
+
     .main-heading h1 {
         font-size: 6em
     }
+
     .main-heading h1 span {
         display: block
     }
+
     #index-loader .index-logo {
         width: 10%;
         left: 45%
     }
+
     #index-loader .index-copy h2 {
         font-size: 6vw !important
     }
+
     #studio-intro {
         height: auto;
         padding: 0 0 15vh
     }
+
     .big {
         font-size: 1em;
         line-height: 1.6em
     }
+
     .team-heading {
         position: relative;
         margin-top: 2em
     }
+
     .team-heading h1 {
         line-height: 1.1em;
         font-size: 2.5em
@@ -12016,33 +12564,42 @@ header .header-description {
     #index-loader .index-copy .letter:nth-of-type(18) {
         display: inline-block
     }
+
     #index-loader .index-copy .letter:nth-of-type(18):before {
         content: "";
         display: none
     }
+
     #index-loader .index-copy .letter:nth-of-type(38) {
         display: inline
     }
+
     #index-loader .index-copy .letter:nth-of-type(38):before {
         content: "";
         display: block
     }
+
     #loader .loader-logo span:first-of-type {
         width: 7.5%
     }
+
     #loader .loader-logo span:nth-of-type(5) {
         width: 12.5%;
         margin-right: -0.3rem
     }
+
     #loader .loader-logo span:nth-of-type(7) {
         width: 6%
     }
+
     #loader .loader-logo span:nth-of-type(8) {
         width: 6%
     }
+
     #loader .loader-logo span:nth-of-type(10) {
         margin-left: .08em
     }
+
     #loader .loader-logo span:nth-of-type(10) svg {
         margin-bottom: -0.45em
     }
@@ -12052,27 +12609,31 @@ header .header-description {
     body .main-heading h1 {
         font-size: 8em !important
     }
+
     body .team-heading h1 {
         font-size: 3em !important
     }
+
     body h2 {
         font-size: 3em
     }
+
     .portfolio-wrapper .portfolio li {
         font-size: 3rem;
-     
+
     }
+
     .portfolio-wrapper .portfolio li a {
         line-height: 180px
     }
+
     .portfolio-wrapper .portfolio li .portfolio-mask-wrap {
         line-height: 1.2em
     }
+
     .portfolio-wrapper .portfolio li .portfolio-mask,
     .portfolio-wrapper .portfolio li .portfolio-mask-wrap,
-    .portfolio-wrapper .portfolio li .portfolio-mask>span {
- 
-    }
+    .portfolio-wrapper .portfolio li .portfolio-mask>span {}
 }
 
 @media only screen and (min-width:48em) {
@@ -12081,34 +12642,43 @@ header .header-description {
         line-height: 1em;
         margin-top: .175em
     }
+
     header .header-description {
         margin: 3em 0 6em 0
     }
+
     #studio-intro {
         padding: 15vh 0
     }
+
     #studio-intro p {
         font-size: 1.5em;
         color: #253069
     }
+
     a.bs-button {
         padding: 0 40px;
         line-height: 5em
     }
+
     a.bs-button.btn-small {
         padding: 0 35px;
         line-height: 3.5em
     }
+
     #awards {
         margin-bottom: 20vh
     }
+
     #awards #awards-slider {
         margin-top: 10vh;
         margin-bottom: 15vh
     }
+
     #awards .lSSlideOuter .lSPager.lSpg {
         display: block
     }
+
     #awards .svg-shape {
         display: block;
         width: 15vw;
@@ -12120,91 +12690,115 @@ header .header-description {
         -o-transform: rotate(270deg);
         -ms-transform: rotate(270deg)
     }
+
     #awards .swipe-gesture {
         display: none
     }
+
     #clients li {
         padding: 6vw 12vw
     }
+
     #blog-related,
     #bottom-cta {
         margin-top: 300px
     }
+
     #blog-related .apply-img,
     #bottom-cta .apply-img {
         width: 30%;
         top: -10%;
         right: 10%
     }
+
     #blog-related .careers-img,
     #bottom-cta .careers-img {
         width: 25%;
         top: -10%;
         right: 10%
     }
+
     #contact h1,
     .main-heading h1 {
         font-size: 10em
     }
+
     #services h4 {
         margin-top: 4em;
         font-size: 1.25em
     }
+
     #services ul {
         font-size: .75em;
         margin: 2em 0 0
     }
+
     #services ul li {
         padding: .2em 0
     }
+
     .team-heading h1 {
         line-height: 1.1em;
         font-size: 4em
     }
+
     .team-heading .shape-morph {
         width: 100%;
         top: -20%;
         right: -50%;
         height: auto
     }
+
     #team .row>div+div {
         padding-top: 0px
     }
+
     #team .team-name {
         padding: 0 1em
     }
+
     #team h3 {
         font-size: 1.6666em
     }
+
     #team p {
         font-size: .7em;
         padding-right: 0
     }
+
     #bottom-work {
         height: 75vh
     }
+
     #bottom-work figure {
         display: none
     }
+
     #bottom-work h2 {
         font-size: 7em
     }
+
     #contact .contact-wrap {
         margin-top: 6em
     }
+
     #contact .contact-wrap #google-map {
         margin-top: 20vh
     }
+
     #contact .contact-wrap .address-wrap {
         top: -20vh;
         left: 50%
     }
+
     #contact .contact-wrap .address-wrap address {
         text-align: left
     }
+
     #contact .contact-wrap .address-wrap address:nth-of-type(2) {
         text-align: right
     }
+
     #contact .contact-wrap .contact-button {
         font-size: 1.2em;
         width: 80%;
@@ -12215,11 +12809,13 @@ header .header-description {
         -webkit-box-sizing: border-box;
         box-sizing: border-box
     }
+
     #contact .contact-wrap .contact-button:hover {
         width: 90%;
         padding-top: 90%;
         margin: 5%
     }
+
     #contact .contact-wrap .contact-button:hover:before {
         z-index: -1;
         top: 5%;
@@ -12237,6 +12833,7 @@ header .header-description {
         height: auto;
         padding-top: 60px
     }
+
     #index-loader .loading-circle {
         transform: scale(0.1) translate(-50%, -50%);
         -moz-transform: scale(0.1) translate(-50%, -50%);
@@ -12253,15 +12850,18 @@ header .header-description {
         padding-top: 250%;
         background-color: #D6372E
     }
+
     #loader .circle-first,
     #loader .circle-second {
         width: 250%;
         height: auto;
         padding-top: 250%
     }
+
     #approach {
         position: relative
     }
+
     #approach .approach-item {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12285,6 +12885,7 @@ header .header-description {
         width: 100%;
         border-bottom: 1px solid rgba(37, 48, 105, 0.15)
     }
+
     #approach .approach-item.active .approach-content {
         opacity: 1;
         padding-bottom: 3em;
@@ -12295,6 +12896,7 @@ header .header-description {
         -o-transform: translateY(0%);
         -ms-transform: translateY(0%)
     }
+
     #approach .approach-item.active h3:after,
     #approach .approach-item.active h3:before {
         transform: translate(-50%, -50%) rotate(180deg);
@@ -12303,6 +12905,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) rotate(180deg);
         -ms-transform: translate(-50%, -50%) rotate(180deg)
     }
+
     #approach .approach-icon {
         transition: all 1s cubic-bezier(0.6, 0.06, 0, 1);
         -webkit-transition: all 1s cubic-bezier(0.6, 0.06, 0, 1);
@@ -12311,11 +12914,13 @@ header .header-description {
         width: 20%;
         height: auto
     }
+
     #approach .approach-title {
         padding-left: 10%;
         width: 60%;
         text-align: left
     }
+
     #approach .approach-content {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12333,6 +12938,7 @@ header .header-description {
         -ms-transform: translateY(50px);
         padding: .5em 0
     }
+
     #approach h3 {
         width: 100%;
         text-align: left;
@@ -12340,6 +12946,7 @@ header .header-description {
         position: relative;
         display: inline-block
     }
+
     #approach h3:after,
     #approach h3:before {
         content: "";
@@ -12360,6 +12967,7 @@ header .header-description {
         height: 3px;
         background-color: #D6372E
     }
+
     #approach h3:after {
         top: 50%;
         right: 0%;
@@ -12369,23 +12977,28 @@ header .header-description {
         -o-transform: translate(-50%, -50%) rotate(90deg);
         -ms-transform: translate(-50%, -50%) rotate(90deg)
     }
+
     .portfolio-wrapper {
         overflow: hidden;
         width: 100%;
         padding: 0%;
         margin: 0;
         height: auto;
-        position: relative
+        position: relative;
+   
     }
+
     .portfolio-wrapper>.hp-footer {
         display: none
     }
+
     .portfolio-wrapper>.hp-footer h6 {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -moz-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -o-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1)
     }
+
     .portfolio-wrapper li {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12397,16 +13010,19 @@ header .header-description {
         font-size: 3em;
         padding: 15vh 0
     }
+
     .portfolio-wrapper .portfolio-mask-wrap {
         width: 100%;
         z-index: 150;
         margin: 0;
         padding: 0
     }
+
     .portfolio-wrapper .portfolio-mask {
         display: block;
         height: auto
     }
+
     .portfolio-wrapper .portfolio-item.in-middle .portfolio-item-img img {
         transform: scale(1.05);
         -moz-transform: scale(1.05);
@@ -12414,6 +13030,7 @@ header .header-description {
         -o-transform: scale(1.05);
         -ms-transform: scale(1.05)
     }
+
     .portfolio-wrapper a {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12426,8 +13043,9 @@ header .header-description {
         color: #fff;
         font-weight: 800;
         line-height: 1.3em;
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
+
     .portfolio-wrapper a:before {
         content: "";
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12450,6 +13068,7 @@ header .header-description {
         top: 50%;
         right: -1em
     }
+
     .portfolio-wrapper a:after {
         content: "";
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12466,12 +13085,13 @@ header .header-description {
         transform-origin: 50% 50%;
         display: block;
         position: absolute;
-      
+
         width: 3px;
         height: 15px;
         top: 40%;
         right: -1em
     }
+
     .portfolio-wrapper .portfolio-item-img {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12485,6 +13105,7 @@ header .header-description {
         z-index: -1;
         background-color: #253069
     }
+
     .portfolio-wrapper .portfolio-item-img img {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12506,21 +13127,26 @@ header .header-description {
     #approach .approach-icon {
         width: 30%
     }
+
     #approach .approach-title {
         padding-left: 10%;
         width: 60%;
         text-align: left
     }
+
     #approach h3 {
         font-size: 1.6em
     }
+
     .portfolio-wrapper li {
         font-size: 2em;
         line-height: 2em
     }
+
     .portfolio-wrapper a:before {
         top: 49%
     }
+
     .portfolio-wrapper a:after {
         top: 30%
     }
@@ -12531,6 +13157,7 @@ header .header-description {
         opacity: 1;
         bottom: 4em
     }
+
     #wip a:hover img,
     #wip a:hover video {
         opacity: .2;
@@ -12540,6 +13167,7 @@ header .header-description {
         -o-transform: scale(1.05);
         -ms-transform: scale(1.05)
     }
+
     #wip img,
     #wip video {
         transform: scale(1);
@@ -12548,6 +13176,7 @@ header .header-description {
         -o-transform: scale(1);
         -ms-transform: scale(1)
     }
+
     #wip .wip-icon {
         transform: translate(-50%, -50%);
         -moz-transform: translate(-50%, -50%);
@@ -12559,9 +13188,11 @@ header .header-description {
         text-indent: -999px;
         left: 50%
     }
+
     #awards {
         margin-top: 0
     }
+
     #awards .svg-shape {
         width: 12vw;
         top: 20vh;
@@ -12572,16 +13203,20 @@ header .header-description {
         -o-transform: rotate(260deg);
         -ms-transform: rotate(260deg)
     }
+
     #awards h2 {
         font-size: 8.3em
     }
+
     #clients h2 {
         font-size: 5em
     }
+
     #clients li {
         position: relative;
         padding: 5vw 4vw
     }
+
     #clients li span {
         transition: all 650ms cubic-bezier(0.295, 0.94, 0.455, 1);
         -webkit-transition: all 650ms cubic-bezier(0.295, 0.94, 0.455, 1);
@@ -12601,6 +13236,7 @@ header .header-description {
         -ms-transform: translate(-50%, -50%) scale(0, 0.5) rotateZ(20deg);
         opacity: 0
     }
+
     #clients li svg {
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
@@ -12614,6 +13250,7 @@ header .header-description {
         -o-transition: all 650ms cubic-bezier(0.295, 0.94, 0.455, 1);
         fill: #253069
     }
+
     #clients li:hover svg {
         fill: #fff;
         transform: scale(0.9);
@@ -12622,6 +13259,7 @@ header .header-description {
         -o-transform: scale(0.9);
         -ms-transform: scale(0.9)
     }
+
     #clients li:hover span {
         transform: translate(-50%, -50%) scale(1, 1) rotateZ(0deg);
         -moz-transform: translate(-50%, -50%) scale(1, 1) rotateZ(0deg);
@@ -12630,76 +13268,97 @@ header .header-description {
         -ms-transform: translate(-50%, -50%) scale(1, 1) rotateZ(0deg);
         opacity: 1
     }
+
     .project-label {
         display: block
     }
+
     .main-heading {
         margin-top: 2em;
         position: relative
     }
+
     .main-heading.studio .scroll-line {
         left: 18%;
         bottom: -5vh
     }
+
     .main-heading.studio .scroll-line span {
         height: 15vh
     }
+
     #studio-intro {
         padding: 15vh 0 30vh;
         position: relative;
         line-height: 1.9em
     }
+
     #studio-intro h3 {
         font-size: 1em;
         margin-top: 1em
     }
+
     #studio-intro p {
         font-size: 1.5em;
         color: #253069
     }
+
     .loading #loader .loader-logo {
         width: 25%
     }
+
     @-webkit-keyframes circleZoom-1 {
         0% {
             width: 0
         }
+
         25% {
             width: 125%
         }
+
         to {
             width: 125%
         }
     }
+
     @keyframes circleZoom-1 {
         0% {
             width: 0
         }
+
         25% {
             width: 125%
         }
+
         to {
             width: 125%
         }
     }
+
     @-webkit-keyframes circleZoom-2 {
+
         0%,
         75% {
             width: 0
         }
+
         to {
             width: 125%
         }
     }
+
     @keyframes circleZoom-2 {
+
         0%,
         75% {
             width: 0
         }
+
         to {
             width: 125%
         }
     }
+
     .portfolio-wrapper {
         overflow: hidden;
         width: 100%;
@@ -12708,12 +13367,15 @@ header .header-description {
         height: 100%;
         position: relative;
     }
+
     .portfolio-wrapper li {
         position: relative
     }
+
     .portfolio-wrapper li:before {
         display: none
     }
+
     .portfolio-wrapper:before {
         content: "";
         transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12729,6 +13391,7 @@ header .header-description {
         background: linear-gradient(35deg, #da22ff, #9733ee);
         z-index: -1
     }
+
     .portfolio-wrapper>.hp-footer {
         height: 2em;
         width: 100%;
@@ -12746,8 +13409,8 @@ header .header-description {
         transform-origin: 0 0;
         bottom: 60px;
         left: 66px
-        
     }
+
     .portfolio-wrapper>.hp-footer h6 {
         line-height: 3rem;
         margin: 0;
@@ -12757,6 +13420,7 @@ header .header-description {
         -moz-transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
         -o-transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1)
     }
+
     .portfolio-wrapper>.hp-footer .project-caption {
         position: absolute;
         font-weight: 600;
@@ -12770,12 +13434,15 @@ header .header-description {
         left: 0;
         color: #fff
     }
+
     .portfolio-wrapper>.hp-footer .project-caption.hovered {
         top: 0%
     }
+
     .portfolio-wrapper.selected:before {
         left: 0
     }
+
     .portfolio-wrapper.selected>.hp-footer h6.copyright {
         transform: translate(0, -100%);
         -moz-transform: translate(0, -100%);
@@ -12783,6 +13450,7 @@ header .header-description {
         -o-transform: translate(0, -100%);
         -ms-transform: translate(0, -100%)
     }
+
     .portfolio-wrapper.selected>.hp-footer .project-caption.hovered {
         transform: translateY(0);
         -moz-transform: translateY(0);
@@ -12790,6 +13458,7 @@ header .header-description {
         -o-transform: translateY(0);
         -ms-transform: translateY(0)
     }
+
     .portfolio-wrapper li {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12805,6 +13474,7 @@ header .header-description {
         line-height: 1.2em;
         font-size: 2.5em
     }
+
     .portfolio-wrapper li:nth-child(2) {
         -webkit-transition-delay: 0.15s;
         -moz-transition-delay: 0.15s;
@@ -12812,6 +13482,7 @@ header .header-description {
         -ms-transition-delay: 0.15s;
         transition-delay: 0.15s
     }
+
     .portfolio-wrapper li:nth-child(3) {
         -webkit-transition-delay: 0.125s;
         -moz-transition-delay: 0.125s;
@@ -12819,6 +13490,7 @@ header .header-description {
         -ms-transition-delay: 0.125s;
         transition-delay: 0.125s
     }
+
     .portfolio-wrapper li:nth-child(4) {
         -webkit-transition-delay: 0.1s;
         -moz-transition-delay: 0.1s;
@@ -12826,6 +13498,7 @@ header .header-description {
         -ms-transition-delay: 0.1s;
         transition-delay: 0.1s
     }
+
     .portfolio-wrapper li:nth-child(5) {
         -webkit-transition-delay: 0.075s;
         -moz-transition-delay: 0.075s;
@@ -12833,6 +13506,7 @@ header .header-description {
         -ms-transition-delay: 0.075s;
         transition-delay: 0.075s
     }
+
     .portfolio-wrapper li.active:hover .portfolio-mask {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -12844,6 +13518,7 @@ header .header-description {
         -moz-transition: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
         -o-transition: all 400ms cubic-bezier(0.77, 0, 0.175, 1)
     }
+
     .portfolio-wrapper li.active:hover .portfolio-mask>span {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -12851,16 +13526,20 @@ header .header-description {
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     .portfolio-wrapper li.active:before {
         bottom: 0;
         opacity: 1
     }
+
     .portfolio-wrapper li .active:nth-of-type(8):before {
         bottom: 5%
     }
+
     .portfolio-wrapper .fake-link:before {
         content: attr(data-mask-link)
     }
+
     .portfolio-wrapper a {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12875,8 +13554,9 @@ header .header-description {
         line-height: 1.25em;
         color: rgba(37, 48, 105, 0.15);
         font-weight: 800;
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
+
     .portfolio-wrapper a:before {
         content: "";
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12893,7 +13573,7 @@ header .header-description {
         transform-origin: 50% 50%;
         display: block;
         position: absolute;
-    
+
         width: 4px;
         height: 20px;
         text-align: center;
@@ -12901,6 +13581,7 @@ header .header-description {
         right: 0em;
         opacity: 0
     }
+
     .portfolio-wrapper a:after {
         content: "";
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -12917,7 +13598,7 @@ header .header-description {
         transform-origin: 50% 50%;
         display: block;
         position: absolute;
-       
+
         width: 4px;
         height: 20px;
         text-align: center;
@@ -12925,11 +13606,13 @@ header .header-description {
         right: 0em;
         opacity: 0
     }
+
     .portfolio-wrapper .portfolio-mask,
     .portfolio-wrapper .portfolio-mask>span {
         height: 8rem;
         width: 100%;
     }
+
     .portfolio-wrapper .portfolio-mask-wrap {
         position: absolute;
         overflow: hidden;
@@ -12945,6 +13628,7 @@ header .header-description {
         -moz-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -o-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1)
     }
+
     .portfolio-wrapper .portfolio-mask {
         position: absolute;
         overflow: hidden;
@@ -12960,6 +13644,7 @@ header .header-description {
         -moz-transition: all 400ms cubic-bezier(0.77, 0, 0.175, 1);
         -o-transition: all 400ms cubic-bezier(0.77, 0, 0.175, 1)
     }
+
     .portfolio-wrapper .portfolio-mask>span {
         position: absolute;
         color: #fff;
@@ -12975,12 +13660,15 @@ header .header-description {
         display: inline-block;
         font-weight: 800
     }
+
     .portfolio-wrapper .portfolio {
         overflow: hidden
     }
+
     .portfolio-wrapper .portfolio.entered {
         overflow: visible
     }
+
     .portfolio-wrapper .portfolio.entered .project-label .portfolio-mask {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -12988,6 +13676,7 @@ header .header-description {
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     .portfolio-wrapper .portfolio.entered .project-label .portfolio-mask>span {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -12995,11 +13684,13 @@ header .header-description {
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     .portfolio-wrapper .portfolio-item.active a:after,
     .portfolio-wrapper .portfolio-item.active a:before {
         right: -0.5em;
         opacity: 1
     }
+
     .portfolio-wrapper .portfolio-item.active a:before {
         transform: rotate(45deg) translate(0%, 40%);
         -moz-transform: rotate(45deg) translate(0%, 40%);
@@ -13007,6 +13698,7 @@ header .header-description {
         -o-transform: rotate(45deg) translate(0%, 40%);
         -ms-transform: rotate(45deg) translate(0%, 40%)
     }
+
     .portfolio-wrapper .portfolio-item.active a:after {
         transform: rotate(-45deg) translate(0%, -40%);
         -moz-transform: rotate(-45deg) translate(0%, -40%);
@@ -13014,6 +13706,7 @@ header .header-description {
         -o-transform: rotate(-45deg) translate(0%, -40%);
         -ms-transform: rotate(-45deg) translate(0%, -40%)
     }
+
     .portfolio-wrapper .portfolio-item.active .portfolio-item-img.show {
         transition: all 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         -webkit-transition: all 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -13032,9 +13725,11 @@ header .header-description {
         top: 0;
         opacity: 1
     }
+
     .portfolio-wrapper .portfolio-item.active .portfolio-mask-wrap {
         overflow: visible
     }
+
     .portfolio-wrapper.selected .portfolio-item .portfolio-mask {
         transform: translateX(101%);
         -moz-transform: translateX(101%);
@@ -13042,6 +13737,7 @@ header .header-description {
         -o-transform: translateX(101%);
         -ms-transform: translateX(101%)
     }
+
     .portfolio-wrapper.selected .portfolio-item .portfolio-mask>span {
         transform: translateX(-101%);
         -moz-transform: translateX(-101%);
@@ -13049,6 +13745,7 @@ header .header-description {
         -o-transform: translateX(-101%);
         -ms-transform: translateX(-101%)
     }
+
     .portfolio-wrapper.selected .portfolio-item .portfolio-item-img {
         transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         -webkit-transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -13067,6 +13764,7 @@ header .header-description {
         top: 0;
         opacity: 0
     }
+
     .portfolio-wrapper.selected .portfolio-item.active .portfolio-mask {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -13074,6 +13772,7 @@ header .header-description {
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     .portfolio-wrapper.selected .portfolio-item.active .portfolio-mask>span {
         transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -13081,9 +13780,11 @@ header .header-description {
         -o-transform: translateX(0%);
         -ms-transform: translateX(0%)
     }
+
     .portfolio-wrapper.selected .portfolio-item a {
         color: rgba(0, 0, 0, 0.2)
     }
+
     .portfolio-wrapper .portfolio-item-img {
         transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
         -webkit-transition: all 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -13111,32 +13812,39 @@ header .header-description {
         width: 100%;
         z-index: -1
     }
+
     .portfolio-wrapper .portfolio-item-img img {
         height: 100%;
         opacity: .75;
         -o-object-fit: cover;
         object-fit: cover
     }
+
     header h2 {
         font-size: 3em;
         line-height: 1em;
         margin-top: .25em
     }
+
     header .header-description {
         margin: 3em 0 6em 0
     }
+
     #bottom-cta .svg-shape {
         width: 5%;
         left: 35%
     }
+
     #bottom-cta .careers-img {
         width: 20%;
         top: -10%;
         right: 15%
     }
+
     #approach {
         position: relative
     }
+
     #approach .svg-shape {
         display: block;
         width: 12%;
@@ -13145,6 +13853,7 @@ header .header-description {
         right: 35%;
         max-width: 200px
     }
+
     #approach .approach-icon {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -13155,12 +13864,14 @@ header .header-description {
         height: 120px;
         margin-top: 1em
     }
+
     #approach .approach-title {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -moz-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -o-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1)
     }
+
     #approach .approach-content {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -13175,11 +13886,13 @@ header .header-description {
         -ms-transform: scale(0.35, 0.25) rotateX(15deg) rotateZ(20deg) translateY(150px) translateX(-50px);
         padding: 0 0 2em
     }
+
     #approach h3 {
         margin: 0 0 .8em 0;
         position: relative;
         display: inline-block
     }
+
     #approach h3:after,
     #approach h3:before {
         content: "";
@@ -13200,6 +13913,7 @@ header .header-description {
         height: 3px;
         background-color: #D6372E
     }
+
     #approach h3:after {
         top: 50%;
         right: -40px;
@@ -13209,6 +13923,7 @@ header .header-description {
         -o-transform: translate(-50%, -50%) rotate(90deg);
         -ms-transform: translate(-50%, -50%) rotate(90deg)
     }
+
     #approach h3 sup {
         position: absolute;
         top: 0;
@@ -13217,6 +13932,7 @@ header .header-description {
         left: -1.5em;
         display: block
     }
+
     #approach .approach-item {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -13225,9 +13941,11 @@ header .header-description {
         overflow: hidden;
         cursor: pointer
     }
+
     #approach .approach-item:hover {
         margin-bottom: 1em
     }
+
     #approach .approach-item:hover .approach-content {
         opacity: 1;
         transform: scale(1, 1) rotateX(0deg) rotateZ(0deg) translateY(0) translateX(0);
@@ -13236,6 +13954,7 @@ header .header-description {
         -o-transform: scale(1, 1) rotateX(0deg) rotateZ(0deg) translateY(0) translateX(0);
         -ms-transform: scale(1, 1) rotateX(0deg) rotateZ(0deg) translateY(0) translateX(0)
     }
+
     #approach .approach-item:hover .approach-title {
         transform: scale(0.8);
         -moz-transform: scale(0.8);
@@ -13243,9 +13962,11 @@ header .header-description {
         -o-transform: scale(0.8);
         -ms-transform: scale(0.8)
     }
+
     #approach .approach-item:hover .approach-icon {
         margin-top: 0
     }
+
     #approach .approach-item:hover h3:after,
     #approach .approach-item:hover h3:before {
         transform: translate(-50%, -50%) rotate(180deg);
@@ -13254,28 +13975,35 @@ header .header-description {
         -o-transform: translate(-50%, -50%) rotate(180deg);
         -ms-transform: translate(-50%, -50%) rotate(180deg)
     }
+
     .bs-button-wrap {
         margin-top: 60px
     }
+
     .apply-text {
         padding: 30px 0
     }
+
     #partners {
         position: relative
     }
+
     #partners ul {
         margin: 2em 0 0;
         font-size: 2.083em;
         font-weight: 400
     }
+
     #partners ul li {
         padding: .5em 0
     }
+
     #google-map {
         position: relative;
         overflow: hidden;
         z-index: 1
     }
+
     #google-map:before {
         display: block;
         content: "";
@@ -13292,6 +14020,7 @@ header .header-description {
         -ms-transform: skew(0deg, -20deg);
         z-index: 1
     }
+
     #google-map:after {
         display: block;
         content: "";
@@ -13308,12 +14037,14 @@ header .header-description {
         -o-transform: skew(0deg, 20deg);
         -ms-transform: skew(0deg, 20deg)
     }
+
     #bottom-work {
         height: 100vh;
         padding: 10% 0;
         overflow: hidden;
         position: relative
     }
+
     #bottom-work figure {
         display: block;
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -13334,13 +14065,16 @@ header .header-description {
         height: auto;
         width: 360px
     }
+
     #bottom-work figure img {
         width: 100%;
         height: auto
     }
+
     #bottom-work figure.active {
         top: 100%
     }
+
     #bottom-work h2 {
         position: absolute;
         top: 50%;
@@ -13354,10 +14088,12 @@ header .header-description {
         font-size: 10em;
         line-height: .5em
     }
+
     #bottom-work a {
         display: block;
         position: relative
     }
+
     #bottom-work a:before {
         transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
         -webkit-transition: all 350ms cubic-bezier(0.77, 0, 0.175, 1);
@@ -13377,6 +14113,7 @@ header .header-description {
         height: 20px;
         background-color: #253069
     }
+
     #bottom-work a:hover:before {
         -webkit-transition-delay: 0.15s;
         -moz-transition-delay: 0.15s;
@@ -13385,29 +14122,36 @@ header .header-description {
         transition-delay: 0.15s;
         width: 105%
     }
+
     #newsletter-form {
         margin-top: 1.5em;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
     }
+
     #newsletter-form #email {
         width: 70%
     }
+
     #newsletter-form #newsletter-submit {
         width: 30%
     }
+
     .portfolio-wrapper li {
         height: 140px
     }
+
     .portfolio-wrapper .portfolio-mask,
     .portfolio-wrapper .portfolio-mask-wrap,
     .portfolio-wrapper .portfolio-mask>span {
         height: 140px
     }
+
     #contact .contact-wrap {
         margin-top: 0;
         position: relative
     }
+
     #contact .contact-wrap .address-wrap {
         position: absolute;
         display: block;
@@ -13421,18 +14165,21 @@ header .header-description {
         left: 50%;
         z-index: 100
     }
+
     #contact .contact-wrap .contact-button {
         width: 66%;
         height: auto;
         padding-top: 66%;
         margin: 17%
     }
+
     #contact .contact-wrap .contact-button:before {
         top: -15%;
         right: -15%;
         bottom: -15%;
         left: -15%
     }
+
     #contact .contact-wrap .contact-button:hover {
         width: 76%;
         height: auto;
@@ -13446,30 +14193,37 @@ header .header-description {
         font-size: 1.5em;
         line-height: 1.66em
     }
+
     h2 {
         font-size: 8.333em;
         line-height: 1em
     }
+
     #wip .wip-icon {
         width: 80px;
         padding-top: 80px
     }
+
     #approach {
         position: relative;
         z-index: 500
     }
+
     .approach-desc {
         font-size: 1.8vw
     }
+
     #clients li {
         padding: 4vw
     }
+
     #canvas-heading {
         position: relative;
         display: block;
         width: 100%;
         height: 85vh
     }
+
     #canvas-heading canvas {
         position: absolute;
         width: 100%;
@@ -13478,6 +14232,7 @@ header .header-description {
         top: -5%;
         display: none
     }
+
     #canvas-heading h2 {
         position: absolute;
         font-size: 14rem;
@@ -13485,49 +14240,60 @@ header .header-description {
         top: 15%;
         left: 15%
     }
+
     #canvas-heading h2 span {
         display: block
     }
+
     #services .svg-shape {
         width: 7%;
         right: 38%;
         top: 15%
     }
+
     #loader .loader-logo {
         width: 25%
     }
+
     #contact h1,
     .main-heading h1 {
         font-size: 11em;
         line-height: 1em
     }
+
     .team-heading h1 {
         line-height: 1.1em;
         font-size: 4em
     }
+
     #blog-related,
     #bottom-cta {
         margin-top: 360px
     }
+
     #blog-related .apply-img,
     #bottom-cta .apply-img {
         width: 35%;
         top: -10%;
         right: -5%
     }
+
     #blog-related .careers-img,
     #bottom-cta .careers-img {
         width: 25%;
         top: -10%;
         right: 0%
     }
+
     .apply-text {
         margin: 30px 0 0 60px
     }
+
     #culture {
         background-color: #253069;
         position: relative
     }
+
     #culture:before {
         content: "";
         position: absolute;
@@ -13544,33 +14310,41 @@ header .header-description {
         -ms-transform: skewY(-7deg);
         z-index: 10
     }
+
     #culture .culture-img:firs-of-type {
         padding-right: 12%;
         position: relative;
         z-index: 100
     }
+
     #culture .culture-img:nth-of-type(2) {
         padding-right: 10%
     }
+
     #culture .grid-wrap {
         position: relative;
         z-index: 300
     }
+
     #team .row>div+div {
         padding-top: 120px
     }
+
     .portfolio-wrapper {
         width: 100%;
         padding: 10% 10%;
         margin: 0
     }
+
     .portfolio-wrapper li {
         height: 220px;
         font-size: 1.5rem
     }
+
     .portfolio-wrapper a {
         line-height: 220px
     }
+
     .portfolio-wrapper .portfolio-mask,
     .portfolio-wrapper .portfolio-mask-wrap,
     .portfolio-wrapper .portfolio-mask>span {
@@ -13582,6 +14356,7 @@ header .header-description {
     .apply-text {
         margin: 30px 0 0 0
     }
+
     #bottom-work figure {
         width: 440px
     }
@@ -13591,47 +14366,58 @@ header .header-description {
     body {
         font-size: 1.75em
     }
+
     #approach .approach-icon {
         width: 160px;
         height: 160px
     }
+
     #studio-intro p {
         font-size: 1.6em;
         color: #253069
     }
+
     #team .team-name {
         font-size: 1.15em
     }
+
     #blog-related,
     #bottom-cta {
         margin-top: 450px
     }
+
     #blog-related .apply-img,
     #bottom-cta .apply-img {
         width: 25%;
         top: -10%;
         right: 10%
     }
+
     #blog-related .careers-img,
     #bottom-cta .careers-img {
         width: 20%;
         top: -10%;
         right: 10%
     }
+
     .apply-text {
         margin: 60px 0 0 30px
     }
+
     #bottom-work figure {
         width: 520px
     }
+
     .portfolio-wrapper {
         width: 100%;
         padding: 5% 10%;
         margin: 0
     }
+
     .portfolio-wrapper li {
         height: 250px
     }
+
     .portfolio-wrapper .portfolio-mask,
     .portfolio-wrapper .portfolio-mask-wrap,
     .portfolio-wrapper .portfolio-mask>span {
