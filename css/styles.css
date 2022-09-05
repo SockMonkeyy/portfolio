@@ -13002,7 +13002,7 @@ html {
 
 
 .hoverChange:hover {
-  content: url("/portfolio/assets/img/monster.png");
+  content: url("https://i.postimg.cc/CL7mTV8p/monster.png");
   width: 100%;
   -moz-transform: scale(2.2) rotatez(-5deg);
   -webkit-transform: scale(2.2) rotatez(-5deg);
@@ -13010,17 +13010,15 @@ html {
   -ms-transform: scale(2.2) rotatez(-5deg);
   transform: scale(2.2) rotatez(-5deg);
   cursor: crosshair;
-  /*animation: shake 1s;*/
   -webkit-transition: .7s;
   -moz-transition: .7s;
   -o-transition: .7s;
   -ms-transition: .7s;
   transition: .7s;
   translate: -100px -100px;
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
+  /* When the animation is finished, start again 
+  animation-iteration-count: infinite; */
   
-
 }
 
 .smallBorder {
