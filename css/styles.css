@@ -13001,8 +13001,8 @@ html {
 
 
 .hoverChange{
-  &:before { display: block; background-image: url("https://i.postimg.cc/CL7mTV8p/monster.png"); }
-  &:after { display: none; background-image: url("https://i.postimg.cc/CL7mTV8p/monster.png"); }
+  &:before { display: block; ::content: url("https://i.postimg.cc/CL7mTV8p/monster.png"); }
+  &:after { display: none; content: url("https://i.postimg.cc/CL7mTV8p/monster.png"); }
 }
 .image-container:hover {
   &:before { display: none; }
