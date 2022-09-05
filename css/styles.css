@@ -13000,15 +13000,6 @@ html {
 }
 
 
-.hoverChange{
-  &:before { display: block; ::content: url("https://i.postimg.cc/CL7mTV8p/monster.png"); }
-  &:after { display: none; content: url("https://i.postimg.cc/CL7mTV8p/monster.png"); }
-}
-.image-container:hover {
-  &:before { display: none; }
-  &:after { display: block; }
-}
-
 
 .hoverChange:hover {
   content: url("https://i.postimg.cc/CL7mTV8p/monster.png");

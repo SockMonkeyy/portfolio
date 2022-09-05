@@ -154,9 +154,9 @@ smoothScroll()
 
 
 var element = document.getElementById('hoverChange');
-var event = new MouseEvent('mouseover', {
+var monster = new MouseEvent('mouseover', {
   'view': window,
   'bubbles': true,
   'cancelable': true
 });
-element.dispatchEvent(event);
+element.dispatchEvent(monster);

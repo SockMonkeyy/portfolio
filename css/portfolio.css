@@ -2,10 +2,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vH;
     background-color: #F5F5F5;
     font-family: Roboto;
+    color: white;
 }
+.parallax {
+    background: url('/UIpractice/Assets/railroadpark.jpg') repeat fixed 100%;
+    background-color: black;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 
 .containerPort {
     margin-top: 50px;
@@ -26,6 +36,7 @@
     text-align: center;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.541), 0 15px 12px rgba(0, 0, 0, 0.479);
     box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.712);
   }
   
   .item:hover{
@@ -53,7 +64,10 @@
     position: absolute;
     top: -100px;
     left: 10%;
-    color: #01A2AC;
+    background: -webkit-linear-gradient(45deg,#2937f0, #9f1ae2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .text h3{
@@ -66,6 +80,7 @@
   
   .item:hover .button{
     bottom: 20%;
+    color: black;
   }
   
   .item .button{
@@ -73,15 +88,15 @@
     bottom: -100px;
     left: 25%;
     width: 50%;
-    border: 3px solid #01A2AC;
+    border: 3px solid blueviolet;
     padding: 15px;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
   }
   
   .button:hover{
-    background-color: #01A2AC;
-    color: #F5F5F5;
+    background-color: blueviolet;
+    color: #ffffff;
   }
   
   /* Modal */
@@ -96,6 +111,7 @@
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.4);
+    margin-top: 1rem;
   }
   
   .modal-contentPort {
@@ -107,6 +123,21 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   }
   
+@media screen and (max-width: 798px) {
+    .modalPort{
+        width: 100vmin;
+        height: 100vmax;
+        margin: 5% auto;
+    }
+
+    .modal-contentPort{
+        width: 95vmin;
+        height: auto;
+        margin-top: 1rem;
+    }
+}
+
+
   .scale{
     animation: scale 0.5s;
     animation-fill-mode: forwards;
@@ -133,9 +164,11 @@
   
   #details *{
     transition: all .3s;
+    color: black;
   }
   
   #title{
+    color: black;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
@@ -143,26 +176,34 @@
   #details .button{
     position: absolute;
     width: 30%;
-    background-color: #01A2AC;
-    color: #F5F5F5;
+    background: linear-gradient(35deg, #da22ff, #9733ee);
+    color: #272727;
     text-align: center;
     left: 25px;
     bottom: 35px;
     padding: 15px;
+    border-radius: 3px;
   }
+
   
   #details i{
     position: absolute;
     bottom: 30px;
     right: 25px;
     font-size: 3rem;
-    color: #01A2AC;
+    background: -webkit-linear-gradient(45deg,#2937f0, #9f1ae2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   #details .button:hover,
   i:hover{
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 1;
+    color: white;
+    box-shadow: 0px 15px 20px rgba(137, 43, 226, 0.61);
+    transform: translateY(-7px);
   }
   
   /* Close Button */
