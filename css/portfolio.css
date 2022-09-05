@@ -228,7 +228,7 @@
     color: #ffffff4d;
     font-weight: 800;
     height: 70px;
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .navlinks li:first-of-type .fake-link:before {
@@ -542,7 +542,7 @@
     }
 
     .portfolio-wrapper a{
-        font-size: 6rem;
+        font-size: 3rem;
     }
 }
 
@@ -13564,7 +13564,7 @@ header .header-description {
         line-height: 1.25em;
         color: rgba(37, 48, 105, 0.15);
         font-weight: 800;
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .portfolio-wrapper a:before {
@@ -13583,7 +13583,6 @@ header .header-description {
         transform-origin: 50% 50%;
         display: block;
         position: absolute;
-
         width: 4px;
         height: 20px;
         text-align: center;
@@ -13608,7 +13607,6 @@ header .header-description {
         transform-origin: 50% 50%;
         display: block;
         position: absolute;
-
         width: 4px;
         height: 20px;
         text-align: center;
