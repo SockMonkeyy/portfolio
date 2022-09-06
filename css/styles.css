@@ -12953,6 +12953,12 @@ footer a:focus {
 
 }
 
+.avatarPort {
+  transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+
+}
+
 .avatar {
   transform: translatey(0px);
   animation: float 5s ease-in-out infinite;
@@ -12999,7 +13005,10 @@ html {
   will-change: transform;
 }
 
-
+.hoverChange {
+  content: url("https://i.postimg.cc/vmk0qLV1/Web-Development-Promotion-Instagram-Post.png");
+  width: 100%;
+}
 
 .hoverChange:hover {
   content: url("https://i.postimg.cc/CL7mTV8p/monster.png");
@@ -13081,4 +13090,14 @@ html {
   background-image: url('https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
   background-repeat: no-repeat;
   background-size: cover;
+  }
+
+  .logoDiv{
+    border-radius: 20%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    background-image: url(https://i.postimg.cc/XqCBTvng/Untitled-design-1.png);
   }

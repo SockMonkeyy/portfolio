@@ -8,7 +8,7 @@
 }
 .parallax {
     background: url('/UIpractice/Assets/railroadpark.jpg') repeat fixed 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: #9f1ae293;
     background-blend-mode: luminosity;
     background-size: cover;
     background-position: center;
@@ -26,6 +26,7 @@
   }
   
   .item {
+    
     position: relative;
     float: left;
     overflow: hidden;
@@ -41,10 +42,12 @@
   
   .item:hover{
     cursor: pointer;
+    
   }
   
   .item *{
     transition: all 0.35s ease-in-out;
+   
   }
   
   .images {
@@ -230,6 +233,7 @@
     cursor: pointer;
   }
 
+
  
   .frame{
     
@@ -258,6 +262,7 @@
 	&:hover{
 		&:before{
 			opacity: 0;
+      
 		}
 	}
 	
@@ -324,7 +329,7 @@
     -webkit-box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
   box-shadow: inset 10px 10px 37px 0px rgba(0,0,0,0.75);
-  box-shadow: 0 19px 38px rgb(88, 88, 88), 0 15px 12px rgb(255, 255, 255);
+  box-shadow: 0 19px 35px rgba(87, 87, 87, 0.514), 0 15px 12px rgba(0, 0, 0, 0.61);
 }
 
   
