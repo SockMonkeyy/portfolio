@@ -13008,7 +13008,8 @@ html {
 .hoverChange {
   content: url("https://i.postimg.cc/vmk0qLV1/Web-Development-Promotion-Instagram-Post.png");
   width: 100%;
-}
+  &:before { display: block; ::content: url('https://i.postimg.cc/vmk0qLV1/Web-Development-Promotion-Instagram-Post.png'); }
+  &:after { display: none; content: url('https://i.postimg.cc/CL7mTV8p/monster.png'); }
 
 .hoverChange:hover {
   content: url("https://i.postimg.cc/CL7mTV8p/monster.png");
@@ -13027,7 +13028,7 @@ html {
   translate: -100px -100px;
   /* When the animation is finished, start again 
   animation-iteration-count: infinite; */
-  
+ 
 }
 
 .smallBorder {
