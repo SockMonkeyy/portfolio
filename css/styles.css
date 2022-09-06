@@ -13093,6 +13093,8 @@ html {
   }
 
   .logoDiv{
+    justify-content: center;
+    margin: 0 auto;
     border-radius: 20%;
     background-color: rgba(0, 0, 0, 0.4);
     background-size: cover;
