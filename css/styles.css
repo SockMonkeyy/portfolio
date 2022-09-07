@@ -13011,7 +13011,7 @@ html {
   
 }
 
-
+/*Preloaded images */
 body:after {
   display: none;
   content: url('https://i.postimg.cc/CL7mTV8p/monster.png') url('https://i.postimg.cc/vmk0qLV1/Web-Development-Promotion-Instagram-Post.png');
@@ -13020,11 +13020,11 @@ body:after {
 .hoverChange:hover {
   content: url("https://i.postimg.cc/CL7mTV8p/monster.png");
   width: 100%;
-  -moz-transform: scale(2.2) rotatez(-5deg);
-  -webkit-transform: scale(2.2) rotatez(-5deg);
-  -o-transform: scale(2.2) rotatez(-5deg);
-  -ms-transform: scale(2.2) rotatez(-5deg);
-  transform: scale(2.2) rotatez(-5deg);
+  -moz-transform: scale(2) rotatez(-5deg);
+  -webkit-transform: scale(2) rotatez(-5deg);
+  -o-transform: scale(2) rotatez(-5deg);
+  -ms-transform: scale(2) rotatez(-5deg);
+  transform: scale(2) rotatez(-5deg);
   cursor: crosshair;
   -webkit-transition: .7s;
   -moz-transition: .7s;
