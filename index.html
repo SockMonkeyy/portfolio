@@ -24,39 +24,40 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link rel="stylesheet" href="./css/portfolio.css">
     <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/tilt.scss">
+  
+    
 </head>
 
 <body id="page-top ">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="#page-top">Wayne Rich <i><span
-                        style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
-                        Media</span></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#services">Services</a></li>
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#carouselExampleCaptions">portfolio</a></li>
-
-                </ul>
-                <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
-                    data-bs-target="#feedbackModal">
-                    <span class="d-flex align-items-center">
-                        <i class="bi-chat-text-fill me-2 text-white" style="text-decoration: none;"></i>
-                        <span class="small text-white">Contact Us</span>
-                    </span>
-                </button>
-            </div>
+    <nav class="navNew">
+        <div class="logo1">
+            <img src="./assets/img/wrmlogo.svg"  alt="Logo Image">
         </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links1">
+            <li><a class="navA" href="#">Home</a></li>
+            <li><a class="navA" href="#services">Services</a></li>
+            <li><a class="navA" href="#portfolio">portfolio</a></li>
+            <li><a class="navA" href="#">Services</a></li>
+            <button class="btn btn-primary  px-3 mb-2 mb-lg-0" data-bs-toggle="modal"
+            data-bs-target="#feedbackModal">
+            <span class="d-flex align-items-center">
+                <i class="bi-chat-text-fill me-2 text-white" style="text-decoration: none;"></i>
+                <span class="small text-white">Contact Us</span>
+            </span>
+        </button>
+        </ul>
+     
     </nav>
     <!-- Mashead header-->
     <header class="masthead" data-animation="fadeIn">
@@ -131,15 +132,15 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-xl-6 col-sm-12 pb-3">
 
-                    <div class="h2 fs-1 text-white">"Having a website for your business is more important now than
+                    <div class="h2 fs-1 text-white mt-5">"Having a website for your business is more important now than
                         it has ever been. I believe your website is a key component to your marketing
                         strategy. I have the experience to ensure your brand marketing is strategic, intentional
                         and most of all effective"</div>
                 </div>
                 <div class="col-xl-6 col-sm-12 logoDiv">
-                    <a href="#portfolio"><button class="btn vw btn-primary mt-5" ;>View My Work</button></a>
-                    <img class="logo" src="assets/img/wrmlogo.svg" alt="..." style="width: 100%"
-                        data-animation="slideInDown" />
+                    <a href="#portfolio"><button class="btn vw btn-primary" ;>View My Work</button></a>
+                    <img class="logo1" src="assets/img/wrmlogo.svg" alt="..." style="width: 100%"
+                        data-animation="slideInDown"/>
 
                 </div>
             </div>
@@ -351,7 +352,7 @@
     </div>
     </section>
 
-<!--Portfolio Section-->
+    <!--Portfolio Section-->
     <section id="portfolio" style="padding: 0;">
         <div id="carouselExampleCaptions" style="height:100%; max-height: 1200px;" class="carousel slide"
             data-bs-ride="false">
@@ -362,35 +363,38 @@
                     aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
                     aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./img/_portfolio/twb.jpg" class="d-block w-100" alt="...">
+                    <img src="https://i.postimg.cc/yYN70dqf/twb.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption mb-5 d-none d-md-block w-50"
                         style="background-color: #00000050; margin: 0 auto; border-radius: 10px;">
                         <h1>Tom Williams BMW of Birmingham</h1>
                         <p>2023 line-up concept design page</p>
-                        <a href="https://sockmonkeyy.github.io/bmw"><button class="btn-primary btn">View Work</button></a>
+                        <a href="https://sockmonkeyy.github.io/bmw"><button class="btn-primary btn">View
+                                Work</button></a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/_portfolio/chowtime.jpg" class="d-block w-100" alt="...">
+                    <img src="https://i.postimg.cc/66c97ZP2/chowtime.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption mb-5 d-none d-md-block w-50"
                         style="background-color: #00000050; margin: 0 auto; border-radius: 10px;">
                         <h1>Chow Time BHM</h1>
                         <p>Developed Menu Ordering, Order Tracking, Driver Dispatch and Much More</p>
-                        <a href="https://sockmonkeyy.github.io/chowtime"><button class="btn-primary btn">View Work</button></a>
+                        <a href="https://sockmonkeyy.github.io/chowtime"><button class="btn-primary btn">View
+                                Work</button></a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="./img/_portfolio/backSpine.jpg" class="d-block w-100" alt="...">
+                    <img src="https://i.postimg.cc/BbmsdWFc/back-Spine.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption mb-5 d-none d-md-block w-50"
                         style="background-color: #00000050; margin: 0 auto; border-radius: 10px;">
                         <h1>Trussville Chiropractics</h1>
                         <p>Conceptual Site Design and Development</p>
-                        <a href="https://sockmonkeyy.github.io/Chiro/"><button class="btn-primary btn">View Work</button></a>
+                        <a href="https://sockmonkeyy.github.io/Chiro/"><button class="btn-primary btn">View
+                                Work</button></a>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -399,7 +403,8 @@
                         style="background-color: #00000050; margin: 0 auto; border-radius: 10px;">
                         <h1>Tee Reason Boutique</h1>
                         <p>Branding, Marketing, SEO, Design, Development , and much more</p>
-                        <a href="https://tee-reason.myshopify.com/"><button class="btn-primary btn">View Work</button></a>
+                        <a href="https://i.postimg.cc/kXhqsmq7/Tee-Reason.jpg"><button class="btn-primary btn">View
+                                Work</button></a>
                     </div>
                 </div>
             </div>
@@ -415,7 +420,7 @@
             </button>
         </div>
     </section>
-<!--Portfolio Section End-->
+    <!--Portfolio Section End-->
 
     <!-- Call to action section-->
     <section class="cta">
@@ -557,6 +562,13 @@
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+    
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <!--Bootstrap Icons-->
@@ -653,12 +665,11 @@
             }
         }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-        crossorigin="anonymous"></script>
+
+<script>
+
+    
+</script>
 
 
 </body>

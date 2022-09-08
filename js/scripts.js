@@ -7,6 +7,22 @@
 // Scripts
 // 
 
+
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links1");
+const links = document.querySelectorAll(".nav-links1 li");
+
+hamburger.addEventListener('click', ()=>{
+   //Animate Links
+    navLinks.classList.toggle("open");
+    links.forEach(link => {
+        link.classList.toggle("fade1");
+    });
+
+    //Hamburger Animation
+    hamburger.classList.toggle("toggle");
+});
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
