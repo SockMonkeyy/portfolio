@@ -7025,6 +7025,7 @@ fieldset:disabled .btn {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
+  background-color: #00000096;
 }
 
 /* rtl:options: {
@@ -13111,6 +13112,14 @@ body:after {
    position: relative;
    top: 50%;
   z-index: 5;
+  }
+
+  .rp{
+    background: #360033;
+    background: -webkit-linear-gradient(to right, #da22ff, #9733ee);
+    background: linear-gradient(to right, #da22ff, #9733ee);
+    background-size: 400% 400%;
+    animation: body 60s infinite ease-in-out;
   }
 
   .logoDiv{
