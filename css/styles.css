@@ -7088,17 +7088,20 @@ fieldset:disabled .btn {
   opacity: 1;
 }
 
-.carousel-caption1 {
-  background-color: #000000ad;
-  margin: 0 auto;
-  border-radius: 10px;
-  display: flex;
+div.carousel-caption1 {
+  position: flex;
+ margin: 0 auto;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: white;
+  text-align: center;
 }
 
+@media (max-width:568px){
+  .carousel-captio {
 
-
-
-
+  }
+}
 
 .carousel-dark .carousel-control-prev-icon,
 .carousel-dark .carousel-control-next-icon {
@@ -13117,7 +13120,7 @@ body:after {
 
   @media (max-width: 992px){
     .rp{
-      
+      height:60vh;
       width:100%;
     }
 
@@ -13129,13 +13132,14 @@ body:after {
   }
 
   .rp{
+    width: 100vw;
     background: #000000;
 
   }
 
   .monDiv{
     background-color: black;
- 
+   
   }
 
   .monsterDiv{
