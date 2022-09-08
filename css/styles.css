@@ -13109,7 +13109,7 @@ body:after {
   .vw{
    position: relative;
    top: 50%;
-  z-index: 10;
+  z-index: 5;
   }
 
   .logoDiv{
@@ -13222,11 +13222,18 @@ body:after {
     display: none;
 }
 
+#mobileLogo{
+  display: none;
+}
+
 /*Stying for small screens*/
 @media screen and (max-width: 800px){
     .navNew{
         position: fixed;
-        z-index: 3;
+        z-index: 7;
+    }
+    #mobileLogo{
+      display: flex;
     }
     .hamburger{
         display:block;
