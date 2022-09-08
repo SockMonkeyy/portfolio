@@ -7088,16 +7088,17 @@ fieldset:disabled .btn {
   opacity: 1;
 }
 
-.carousel-caption {
-  position: absolute;
-  right: 15%;
-  bottom: 1.25rem;
-  left: 15%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  color: #fff;
-  text-align: center;
+.carousel-caption1 {
+  background-color: #000000ad;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
 }
+
+
+
+
+
 
 .carousel-dark .carousel-control-prev-icon,
 .carousel-dark .carousel-control-next-icon {
@@ -13114,13 +13115,38 @@ body:after {
   z-index: 5;
   }
 
-  .rp{
-    background: #360033;
-    background: -webkit-linear-gradient(to right, #da22ff, #9733ee);
-    background: linear-gradient(to right, #da22ff, #9733ee);
-    background-size: 400% 400%;
-    animation: body 60s infinite ease-in-out;
+  @media (max-width: 992px){
+    .rp{
+      
+      width:100%;
+    }
+
+    div.container.monsterDiv{
+      border-radius: 0px;
+      padding: 0;
+      margin: 0;
+    }
   }
+
+  .rp{
+    background: #000000;
+
+  }
+
+  .monDiv{
+    background-color: black;
+ 
+  }
+
+  .monsterDiv{
+    border-radius: 10px;
+    background-blend-mode: darken; 
+    background-color:rgba(0, 0, 0, 0.74);
+    padding: 1rem;
+  }
+
+
+
 
   .logoDiv{
     justify-content: center;
