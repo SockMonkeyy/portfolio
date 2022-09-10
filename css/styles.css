@@ -12410,6 +12410,7 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
+  background-image: url("https://i.postimg.cc/LsypQQfr/aboutImg.jpg");
   background-position: center;
   background-size: cover;
 }
