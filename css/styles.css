@@ -12272,7 +12272,7 @@ html {
   background: linear-gradient(to right, #da22ff, #9733ee);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 400% 400%;
-  animation: body 60s infinite ease-in-out;
+  animation: body 15s infinite ease-in-out;
 }
 
 @keyframes body {
