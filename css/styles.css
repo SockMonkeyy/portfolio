@@ -12587,7 +12587,7 @@ footer a:focus {
     color: white;
   }
   .rocket {
-    width: 400px;
+    width: 100%;
     padding-top: 7rem;
     left: 0;
     padding-right: 5rem;
@@ -12629,7 +12629,6 @@ footer a:focus {
   top: 15%;
   z-index: -1;
   padding-right: 5rem;
-  width: 650px;
 }
 }
 
@@ -13046,8 +13045,7 @@ footer a:focus {
 
   50% {
 
-    transform: translatey(75px);
-   
+    transform: translatey(-15px);
   }
 
   100% {
