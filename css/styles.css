@@ -12567,16 +12567,23 @@ footer a:focus {
 }
 @media (max-width: 992px){
   .masthead{
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
+    background-color: #f8f9fa;
+    padding-top: 9.5rem;
+    background-image: url(/portfolio/assets/img/mast1.png);
   }
 }
 
-.masthead {
-
-  padding-top: 9.5rem;
-  padding-bottom: 3rem;
-  background-image: url(/portfolio/assets/img/masthead.jpg);
+@media (min-width: 992px){
+  .masthead {
+    background-color: #f8f9fa;
+    padding-top: 9.5rem;
+    padding-bottom: 3rem;
+    background-image: url(/portfolio/assets/img/mast1.png);
+  }
 }
+
+
 
 .masthead .masthead-device-mockup {
   display: flex;
