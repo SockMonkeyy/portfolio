@@ -12570,7 +12570,9 @@ footer a:focus {
     padding-bottom: 0rem;
     background-color: #f8f9fa;
     padding-top: 9.5rem;
-    background-image: url(/portfolio/assets/img/mast2.png);
+    background-image: url(https://i.postimg.cc/m2Lxb3C7/mast2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
@@ -12579,7 +12581,9 @@ footer a:focus {
     background-color: #f8f9fa;
     padding-top: 9.5rem;
     padding-bottom: 2rem;
-    background-image: url(/portfolio/assets/img/mast2.png);
+    background-image: url(https://i.postimg.cc/m2Lxb3C7/mast2.png);
+    background-repeat: no-repeat;
+    
   }
 }
 
