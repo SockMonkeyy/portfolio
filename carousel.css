@@ -7,6 +7,10 @@
         width: 100%;
 
     }
+    .boost{
+        padding-top: 0rem;
+        margin-top: 0rem;
+    }
   
 
     .imgC {
@@ -57,6 +61,12 @@ li {
     border-radius: 10px;
     width: 400px;
     display: flex;
+}
+
+@media (min-width:993px){
+    .boost{
+        padding-top: 6rem;
+    }
 }
 
 .slider-img {
