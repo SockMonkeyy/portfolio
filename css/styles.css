@@ -12453,11 +12453,11 @@ section.cta:before {
 }
 
 .features-device-mockup .circle .gradient-start-color {
-  stop-color: #0b8793;
+  stop-color: #da22ff;
 }
 
 .features-device-mockup .circle .gradient-end-color {
-  stop-color: #360033;
+  stop-color: #9733ee;
 }
 
 .features-device-mockup .shape-1 {
@@ -12942,7 +12942,7 @@ footer a:focus {
 }
 
 .teal {
-  color: #0b8793;
+  color: #9733ee;
 }
 
 .meri {
