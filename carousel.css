@@ -65,7 +65,8 @@ li {
 
 @media (min-width:993px){
     .boost{
-        padding-top: 6rem;
+       display: none;
+        
     }
 }
 
