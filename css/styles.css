@@ -12412,9 +12412,10 @@ section {
 section.cta {
   position: relative;
   padding: 15rem 0;
-  background-image: url("https://i.postimg.cc/13XV3pjG/pexels-alex-andrews-3045245.jpg");
+  background-image: url("/portfolio/assets/img/footer.png");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 section.cta .cta-content {
