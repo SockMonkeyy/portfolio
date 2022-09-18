@@ -12587,9 +12587,10 @@ footer a:focus {
     color: white;
   }
   .rocket {
-    width: 300px;
+    width: 400px;
     padding-top: 7rem;
     left: 0;
+    padding-right: 5rem;
 }
 }
 
@@ -12604,12 +12605,19 @@ footer a:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    position: relative;
+    z-index: 10;
     
   }
 
 .design{
   padding-left: 10rem;
+  position: relative;
+  z-index: 10;
+}
+.callback{
+  position: relative;
+  z-index: 10;
 }
 .timeless{
   padding-left: 10rem;
@@ -12620,7 +12628,8 @@ footer a:focus {
   left: 2%;
   top: 15%;
   z-index: -1;
-  
+  padding-right: 5rem;
+  width: 650px;
 }
 }
 
@@ -13037,7 +13046,8 @@ footer a:focus {
 
   50% {
 
-    transform: translatey(-15px);
+    transform: translatey(75px);
+   
   }
 
   100% {
