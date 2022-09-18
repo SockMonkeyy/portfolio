@@ -12582,6 +12582,11 @@ footer a:focus {
     padding-left: 0rem;
     color: white;
   }
+  .rocket {
+    width: 300px;
+    padding-top: 7rem;
+    left: 0;
+}
 }
 
 
@@ -12605,6 +12610,13 @@ footer a:focus {
 .timeless{
   padding-left: 10rem;
   color: white;
+}
+.rocket {
+  position: absolute;
+  left: 2%;
+  top: 15%;
+  z-index: -1;
+  
 }
 }
 
