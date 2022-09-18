@@ -47,7 +47,7 @@ li {
 
 
 .slider {
-    background: rgb(248, 249, 250);
+    background: rgba(248, 249, 250, 0);
     position: relative;
     padding-bottom: 2rem;
 

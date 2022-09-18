@@ -12572,9 +12572,10 @@ footer a:focus {
 }
 
 .masthead {
-  background-color: #f8f9fa;
+
   padding-top: 9.5rem;
   padding-bottom: 3rem;
+  background-image: url(/portfolio/assets/img/masthead.jpg);
 }
 
 .masthead .masthead-device-mockup {
