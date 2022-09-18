@@ -12727,6 +12727,7 @@ footer a:focus {
 .monster {
   box-shadow: 0 0 30px white;
   border-radius: 50px;
+ margin-left: 1rem;
 }
 
 
@@ -13204,9 +13205,8 @@ height: 100%;
     background-blend-mode: darken; 
     background-color:rgba(0, 0, 0, 0.74);
     padding: 1rem;
+ 
   }
-
-
 
 
   .logoDiv{
