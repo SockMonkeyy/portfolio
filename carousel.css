@@ -5,7 +5,7 @@
         position: relative;
         height: 470px;
         width: 100%;
-
+        display: none;
     }
     .boost{
         padding-top: 0rem;
@@ -58,7 +58,7 @@ li {
 }
 
 .imgC {
-    margin-top: 5.5rem;
+    margin-top: 6rem;
     border-radius: 10px;
     width: 400px;
     display: flex;
@@ -67,8 +67,8 @@ li {
 @media (min-width:993px){
     .boost{
        display: none;
-        
     }
+   
 }
 
 .slider-img {
