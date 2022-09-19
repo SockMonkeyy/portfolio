@@ -12579,20 +12579,13 @@ footer a:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-attachment: fixed;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    width:100%;
-    
   }
   .design{
     padding-left: 0rem;
   }
   .timeless{
     padding-left: 0rem;
-    color: black;
+    color: white;
   }
   .rocket {
     width: 100%;
@@ -12613,7 +12606,9 @@ footer a:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    display:flex;
+    position: relative;
+    z-index: 10;
+        display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
