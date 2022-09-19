@@ -13039,7 +13039,7 @@ footer a:focus {
 
 .avatar {
   transform: translatey(0px);
-  animation: float 3s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 
 }
 
