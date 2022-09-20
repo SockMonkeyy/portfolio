@@ -12635,7 +12635,10 @@ footer a:focus {
     z-index: 10;
     margin-left: 5rem;
   }
-
+  .boosted{
+    color:white;
+   
+  }
   .timeless {
  
     color: white;
