@@ -12575,6 +12575,7 @@ footer a:focus {
     background-size: cover;
     background-attachment: fixed;
     background-position: left;
+    height: 100vh;
   }
 
   .design {
