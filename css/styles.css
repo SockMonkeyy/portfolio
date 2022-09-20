@@ -12569,7 +12569,7 @@ footer a:focus {
 @media (max-width: 992px) {
   .masthead {
     padding-bottom: 0rem;
-    background-image: url("/portfolio/assets/img/headbg2.png");
+    background-image: url("https://i.postimg.cc/V6Z5hVhz/headbg2.png");
     padding-top: 9.5rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12601,7 +12601,7 @@ footer a:focus {
   .masthead {
     padding-top: 9.5rem;
     padding-bottom: 2rem;
-    background-image: url("/portfolio/assets/img/headbg.png");
+    background-image: url("https://i.postimg.cc/NFV9Kz8d/headbg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
