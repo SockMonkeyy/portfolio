@@ -7028,7 +7028,7 @@ transition-delay: 5000ms;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
-  background-color: #00000096;
+
 }
 
 /* rtl:options: {
@@ -13231,6 +13231,7 @@ body:after {
   height: 100%;
      background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .monDiv {
