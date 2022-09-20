@@ -12583,11 +12583,15 @@ footer a:focus {
     padding-left: 0rem;
     color: white;
   }
+  .boosted{
+    color:white;
+    padding-top: 5rem;
+  }
 
   .timeless {
     padding-left: 0rem;
     color: white;
-    margin-top: 5rem;
+  
   }
 
   .rocket {
