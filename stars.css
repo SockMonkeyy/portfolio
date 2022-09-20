@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     transform: rotate(-45deg);
-    overflow: hidden;
+overflow: hidden;
     
   }
   
@@ -35,7 +35,7 @@
   @media screen and (max-width: 750px) {
     .star {
         width: 100%;
-        overflow: hidden;
+ 
       -webkit-animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
               animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
     }
