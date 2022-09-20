@@ -12613,7 +12613,7 @@ footer a:focus {
     width:100%;
     
 background-blend-mode: darken;
-background-color: #00000025;
+background-color: #00000030;
   }
 
 .design{
@@ -13051,7 +13051,7 @@ background-color: #00000025;
 
   50% {
 
-    transform: translatey(50px) translateX(50px);
+    transform: translatey(5rem) translateX(5rem);
   }
 
   100% {
