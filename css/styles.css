@@ -12568,14 +12568,13 @@ footer a:focus {
 }
 
 
-
-
 @media (max-width: 992px){
   .masthead{
     padding-bottom: 0rem;
-    background-color: #f8f9fa;
+  
     padding-top: 9.5rem;
     background-image: url("https://i.postimg.cc/057pxFqH/masthead2.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12599,7 +12598,6 @@ footer a:focus {
 
 @media (min-width: 992px){
   .masthead {
-    background-color: #f8f9fa;
     padding-top: 9.5rem;
     padding-bottom: 2rem;
     background-image: url("https://i.postimg.cc/057pxFqH/masthead2.png");
@@ -12614,6 +12612,8 @@ footer a:focus {
     height:100vh;
     width:100%;
     
+background-blend-mode: darken;
+background-color: #00000025;
   }
 
 .design{
