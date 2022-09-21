@@ -12606,7 +12606,6 @@ footer a:focus {
 
 @media (min-width: 992px) {
   .masthead {
-  
     padding-bottom: 2rem;
     background-image: url("https://i.postimg.cc/NFV9Kz8d/headbg.png");
     background-repeat: no-repeat;
@@ -13051,7 +13050,7 @@ footer a:focus {
 }
 .saturn{
   position: relative;
-  z-index: -4;
+  z-index: -1;
   width: 200px;
   top: -10vh;
   left: 30vw;
