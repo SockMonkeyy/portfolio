@@ -13123,7 +13123,14 @@ footer a:focus {
     transform: translatey(11vw) translateX(15vh);
   
   }
+  85% {
+    transform: translatey(8vw) translateX(100vh);
   
+  }
+  95% {
+    transform: translatey(8vw) translateX(105vh);
+  
+  }
 
   100% {
 
