@@ -12576,7 +12576,7 @@ footer a:focus {
     background-attachment: fixed;
     background-position: left;
     height: 100vh;
-    padding-top: 50%;
+    padding-top: 20%;
   }
 
   .design {
@@ -12591,7 +12591,8 @@ footer a:focus {
   .timeless {
     padding-left: 0rem;
     color: white;
-  
+  position: relative;
+  bottom: -10vh;
   }
 
   .rocket {
@@ -12659,19 +12660,7 @@ footer a:focus {
 
 
 
-.masthead .masthead-device-mockup {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
 
-.masthead .masthead-device-mockup .circle {
-  position: absolute;
-  fill: url(#circleGradient);
-  width: 70%;
-  display: none;
-}
 
 .masthead .masthead-device-mockup .circle .gradient-start-color {
   stop-color: #da22ff;
