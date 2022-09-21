@@ -13049,11 +13049,45 @@ footer a:focus {
   border-bottom-left-radius: 0px;
 
 }
+.saturn{
+  position: relative;
+  z-index: -4;
+  width: 200px;
+  top: -10vh;
+  left: 30vw;
+}
+
+.moonMan{
+  position: relative;
+  z-index: -1;
+  top:-35vh;
+  left: 10vw;
+  width: 100px;
+  margin-bottom: -25rem;
+}
 
 .avatarPort {
   transform: translatey(0px);
-  animation: float 5s ease-in-out infinite;
+  animation: float1 5s ease-in-out infinite;
 
+}
+@keyframes float1 {
+  0% {
+
+    transform: translatey(0px);
+  }
+
+  
+  50% {
+
+    transform: translatey(.2vw) translateX(0vh);
+  }
+  
+
+  100% {
+
+    transform: translatey(0px);
+  }
 }
 
 .avatar {

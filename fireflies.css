@@ -1362,18 +1362,18 @@
   .clouds {
     width: 10000px;
     height: 100%;
-    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
+    background: transparent url("https://i.postimg.cc/6qf3MsD3/Untitled-design-3.png") repeat;
     background-size: 1000px 1000px;
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: -3;
-    -moz-animation: move-background 100s linear infinite;
-    -ms-animation: move-background 100s linear infinite;
-    -o-animation: move-background 100s linear infinite;
-    -webkit-animation: move-background 100s linear infinite;
-    animation: move-background 100s linear infinite;
+    -moz-animation: move-background 75s linear infinite;
+    -ms-animation: move-background 75s linear infinite;
+    -o-animation: move-background 75s linear infinite;
+    -webkit-animation: move-background 75s linear infinite;
+    animation: move-background 75s linear infinite;
     animation-direction: reverse;
   }
   
