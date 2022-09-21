@@ -12653,6 +12653,7 @@ footer a:focus {
     top: 15%;
     z-index: -1;
     padding-right: 5rem;
+    width: 25%;
   }
 }
 
@@ -13054,6 +13055,14 @@ footer a:focus {
   width: 200px;
   top: -10vh;
   left: 30vw;
+}
+
+.fishing{
+  position: relative;
+  z-index: -1;
+  width: 50px;
+  left: 16vw;
+  top: 16vh;
 }
 
 .moonMan{
