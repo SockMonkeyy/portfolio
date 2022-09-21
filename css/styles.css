@@ -13058,7 +13058,7 @@ footer a:focus {
 
 .avatar {
   transform: translatey(0px);
-  animation: float 20s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 
 }
 
@@ -13067,28 +13067,14 @@ footer a:focus {
 
     transform: translatey(0px);
   }
-  15% {
 
-    transform: translatey(10rem) translateX(15rem);
-  }
-
-  25% {
-
-    transform: translatey(25rem) translateX(25rem);
-  }
-
+  
   50% {
 
     transform: translatey(5rem) translateX(5rem);
   }
-  75% {
 
-    transform: translatey(15rem) translateX(10rem);
-  }
-  85% {
-
-    transform: translatey(5rem) translateX(10rem);
-  }
+  
 
   100% {
 
