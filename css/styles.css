@@ -13100,6 +13100,7 @@ footer a:focus {
 
 .avatar {
   transform: translatey(0px);
+
   animation: float 10s ease-in-out infinite;
 
 }
@@ -13107,19 +13108,19 @@ footer a:focus {
 @keyframes float {
   0% {
 
-    transform: translatey(0px);
+    transform: translatey(1500px);
   }
 
   
   50% {
-
+    
     transform: translatey(10vw) translateX(10vh);
   }
   
 
   100% {
 
-    transform: translatey(0px);
+    transform: translatey(-1500px);
   }
 }
 

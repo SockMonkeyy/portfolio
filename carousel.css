@@ -53,7 +53,7 @@ li {
     background: rgba(248, 249, 250, 0);
     position: relative;
     padding-bottom: 2rem;
-    margin-top: 50%;
+    margin-top: 60%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -62,7 +62,7 @@ li {
 .imgC {
     border: 5px solid black;
     border-radius: 10px;
-    width: 400px;
+    width: 300px;
     display: flex;
     box-shadow: 0 8px 40px rgba(197, 6, 255, 0.616), 10px 18px 20px rgba(0, 0, 0, 0.603);
 }
