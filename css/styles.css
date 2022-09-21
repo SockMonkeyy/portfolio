@@ -12653,7 +12653,7 @@ footer a:focus {
     top: 15%;
     z-index: -1;
     padding-right: 5rem;
-    width: 25%;
+    width: 15%;
   }
 }
 
@@ -13100,27 +13100,34 @@ footer a:focus {
 
 .avatar {
   transform: translatey(0px);
-  transition-delay: 3s;
-  animation: float 20s ease-in-out infinite;
+
+  animation: float 25s ease-in-out infinite;
 
 }
 
 @keyframes float {
   0% {
 
-    transform: translatey(15000px);
+    transform: translateX(-1200vh) translatey(500vw);
   }
-
+  25% {
+    transform: translatey(11vw) translateX(15vh);
+  
+  }
   
   50% {
-    
-    transform: translatey(10vw) translateX(10vh);
+    transform: translatey(12vw) translateX(10vh);
+  
+  }
+  75% {
+    transform: translatey(11vw) translateX(15vh);
+  
   }
   
 
   100% {
 
-    transform: translatey(-15000px);
+    transform: translatex(10000px) translatey(-100vw);
   }
 }
 
