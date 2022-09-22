@@ -12240,8 +12240,13 @@ fieldset:disabled .btn {
 }
 
 body {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(344deg, rgba(0, 0, 0, 1) 0%, rgba(151, 51, 238, 1) 50%, rgba(0, 0, 0, 0.9920343137254902) 100%);
+    width: 100%;
+    background-blend-mode: color;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(151,51,238,1) 50%, rgba(0,0,0,0.9920343137254902) 80%), url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg);
+    height: 100%;
+       background-repeat: no-repeat;
+      background-size: cover;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -12298,7 +12303,7 @@ p {
 }
 
 .bg-faded {
-    background-color: #860bf1;
+    background-color: #860bf157;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
@@ -12409,12 +12414,21 @@ p {
     }
 }
 
+@media (max-width: 992px) {
+    .intro .intro-img {
+        width: 550px;
+        float: right;
+        position: relative;
+   
+    
+    }
+
 @media (min-width: 992px) {
     .intro .intro-img {
         width: 550px;
         float: right;
         position: relative;
-        top: -10vh;
+        top: -21vh;
         right: -5vw;
     }
 
