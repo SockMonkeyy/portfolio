@@ -269,7 +269,7 @@ sup {
 
 a {
     color: #e6a756;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
@@ -12384,9 +12384,7 @@ p {
     z-index: -1;
 }
 
-.footer {
-    background-color: rgba(47, 23, 15, 0.9);
-}
+
 
 .intro {
     position: relative;
@@ -12490,10 +12488,168 @@ p {
 }
 
 
-@media (max-width:992px) {
+@media (min-width:992px) {
     .parallax-view1{
         background-color: rgb(0, 0, 0);
         display:flex;
+        justify-content:center;
+        align-items:center;
+        height:110vh;
+        width:100%;
+        background-image: url('https://i.postimg.cc/43Cz3GPY/Websites-10.png'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(54,76,142,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+     
+      }
+      .par1{
+        margin: 0 auto;
+        width: 95%;
+        box-shadow: 0 14px px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        border-radius: 20px;
+        border: 5px solid white;        
+      }
+      .par2{
+        margin: 0 auto;
+        width: 95%;
+        box-shadow: 0 14px px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+        border-radius: 20px;
+        border: 5px solid black;        
+      }
+      
+      .parallax-view2{
+        background-color: rgb(0, 0, 0);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:110vh;
+        width:100%;
+        background-image: url('https://i.postimg.cc/yYN70dqf/twb.jpgg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(54,76,142,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .parallax-view3{
+        background-color: rgb(0, 0, 0);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:105vh;
+        width:100%;
+        background-image: url('https://i.postimg.cc/66c97ZP2/chowtime.jpg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(54,76,142,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .parallax-view4{
+        background-color: rgb(0, 0, 0);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:110vh;
+        width:100%;
+        background-image: url('https://i.postimg.cc/BbmsdWFc/back-Spine.jpg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(54,76,142,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .parallax-view5{
+        background-color: rgb(0, 0, 0);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:110vh;
+        width:100%;
+        background-image: url('https://i.postimg.cc/kXhqsmq7/Tee-Reason.jpg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(54,76,142,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+
+  
+      .btn-primary1 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, rgb(54, 76, 142), rgb(0, 0, 0));
+        position: relative;
+        bottom: 1vh;
+        border: 2px solid white;   
+    }
+    .btn-primary2 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, #008ac9, rgb(0, 0, 0));
+        position: relative;
+        bottom: 1vh;
+        border: 2px solid black;   
+      }
+      .btn-primary3 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, #e89e30, #30e8e8);
+        position: relative;
+        bottom: 1vh;
+      }
+      .btn-primary4 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, #4a679f, #5e5e5e);
+        position: relative;
+        bottom: 1vh;
+        border: 2px solid white;   
+      }
+      .btn-primary5 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, #ed7402, #bfbfbf);
+        position: relative;
+        bottom: 1vh;
+        border: 2px solid black;   
+      }
+   
+    }
+
+
+
+@media (max-width:992px){
+    .section-heading .section-heading-lower {
+        display: block;
+        font-size: 2rem;
+        font-weight: 100;
+    }
+    .btn-primary1 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, rgb(54, 76, 142), rgb(0, 0, 0));
+        position: relative;
+        bottom: -4vh;
+    }
+      .par1 {
+        position: relative;
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        border-radius: 20px;
+        border: 5px solid white;
+        box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+        top: 2vh;
+    }
+    .par2{
+        position: relative;
+        width: 95%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        border-radius: 20px;
+        border: 5px solid black;
+        box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+        top: 2vh;
+    }
+    .parallax-view1{
+        background-color: rgb(0, 0, 0);
+        
         justify-content:center;
         align-items:center;
         height:100vh;
@@ -12501,62 +12657,89 @@ p {
         background-image: url('https://i.postimg.cc/43Cz3GPY/Websites-10.png'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(54,76,142,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
         background-attachment:fixed;
         background-repeat: no-repeat;
-  
+        background-size: cover;
         background-position: center;
-     
-      }
-      .par1{
-        margin: 0 auto;
-        width: 50%;
-        
       }
       .parallax-view2{
         background-color: rgb(0, 0, 0);
-        display:flex;
+       
         justify-content:center;
         align-items:center;
         height:100vh;
         width:100%;
-        background-image: url('https://i.postimg.cc/yYN70dqf/twb.jpgg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(54,76,142,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-image: url('https://i.postimg.cc/yYN70dqf/twb.jpg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(0,154,218,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
         background-attachment:fixed;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
         background-position: center;
       }
+      .parallax-view3{
+        background-color: rgb(0, 0, 0);
+       
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        width:100%;
+        background-image: url('https://i.postimg.cc/66c97ZP2/chowtime.jpg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(0,154,218,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .parallax-view4{
+        background-color: rgb(0, 0, 0);
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        width:100%;
+        background-image: url('   https://i.postimg.cc/BbmsdWFc/back-Spine.jpg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(0,154,218,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+      .parallax-view5{
+        background-color: rgb(0, 0, 0);
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        width:100%;
+        background-image: url('https://i.postimg.cc/kXhqsmq7/Tee-Reason.jpg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(0,154,218,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
+     
+
+      .btn-primary2 {
+        color: #fff;
+        background: linear-gradient(35deg, #364c8e, rgb(0, 0, 0));
+        position: relative;
+        bottom: -4vh;
     }
+    .btn-primary3 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, #e89e30, #30e8e8);
+        position: relative;
+        bottom: -4vh;
+      }
 
+      .btn-primary4 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, #4a679f, #5e5e5e);
+        position: relative;
+        bottom: -4vh;
+      }
 
-.parallax-view1{
-  background-color: rgb(0, 0, 0);
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:108vh;
-  width:100%;
-  background-image: url('https://i.postimg.cc/43Cz3GPY/Websites-10.png'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(54,76,142,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
-  background-attachment:fixed;
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-}
-  
-.par1{
-    width: 0%;
-    display: ;
-}
-.parallax-view2{
-    background-color: rgb(0, 0, 0);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:108vh;
-    width:100%;
-    background-image: url('https://i.postimg.cc/yYN70dqf/twb.jpg'), linear-gradient(344deg, rgba(0,0,0,1) 0%, rgba(0,154,218,1) 50%, rgba(0,0,0,0.9920343137254902) 100%);
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-  }
+      .btn-primary5 {
+        color: rgb(255, 255, 255);
+        background: linear-gradient(35deg, #ed7402, #bfbfbf);
+        position: relative;
+        bottom: -4vh;
+      }
+}  
+
 
   .solid-view{
     display:flex;
@@ -12567,33 +12750,11 @@ p {
     background-color:black;
   }
   
-  .down{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left:50%;
-    animation: indicateScroll 1.5s infinite;
-  }
-  
-  @keyframes indicateScroll{
-    0%{top:70%;}
-    50%{top:40%;}
-    100%{top:70%;}
-  }
-  
-  .arrow{
-    transform:rotate(90deg);
-  }
-  
-  .btn-primary1 {
-    color: #fff;
-    background: linear-gradient(35deg, #364c8e, rgb(0, 0, 0));
-    position: relative;
-    bottom: -44vh;
-  }
+footer{
+    background: rgb(0,0,0);
+background: linear-gradient(162deg, rgba(0,0,0,1) 0%, rgba(151,51,238,1) 50%, rgba(0,0,0,1) 100%);
+}
+
   
   .btn-primary1:hover {
     color: #fff;
@@ -12602,16 +12763,30 @@ p {
     border-color: #212cc0;
   }
 
-  .btn-primary2 {
-    color: #fff;
-    background: linear-gradient(35deg, #008ac9, rgb(0, 0, 0));
-    position: relative;
-    bottom: -44vh;
-  }
-  
+
   .btn-primary2:hover {
     color: #fff;
     background: linear-gradient(35deg, #000, #008ac9);
+    transition-delay: 9000ms;
+    border-color: #212cc0;
+  }
+
+  .btn-primary3:hover {
+    color: #fff;
+    background: linear-gradient(35deg, #30e8e8, #e89e30);
+    transition-delay: 9000ms;
+    border-color: #212cc0;
+  }
+  
+  .btn-primary4:hover {
+    color: #fff;
+    background: linear-gradient(35deg, #5e5e5e, #4a679f);
+    transition-delay: 9000ms;
+    border-color: #212cc0;
+  }
+  .btn-primary5:hover {
+    color: #000;
+    background: linear-gradient(35deg, #bfbfbf, #ed7402);
     transition-delay: 9000ms;
     border-color: #212cc0;
   }
