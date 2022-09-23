@@ -13316,7 +13316,7 @@ body:after {
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
   display: flex;
   position: fixed;
-  z-index: 10;
+  z-index: 100;
 }
 
 /*Styling logo*/
@@ -13439,7 +13439,7 @@ body:after {
     right: 5%;
     top: 50%;
     transform: translate(-5%, -50%);
-    z-index: 2;
+    z-index: 9;
     transition: all 0.7s ease;
   }
 
