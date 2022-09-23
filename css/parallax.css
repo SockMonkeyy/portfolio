@@ -1,13 +1,43 @@
+
+body{
+  background-size: cover;
+  background-blend-mode: color;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, #536ebf 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg');
+  background-attachment: fixed;
+}
+img{
+  background-color: transparent;
+}
+
 .btn-primary1 {
   color: #fff;
   background: linear-gradient(35deg, #364c8e, rgb(0, 0, 0));
-  width: 150px;
+  border-radius: 5px;
+  width: 75px;
 }
 .btn-primary1:hover {
   color: #fff;
   background: linear-gradient(35deg, #000, #364c8e);
   transition-delay: 9000ms;
   
+}
+
+.btn-primary1footer {
+  color: #fff;
+  background: linear-gradient(35deg, #364c8e, rgb(0, 0, 0));
+  border-radius: 5px;
+
+}
+.btn-primary1footer:hover {
+  color: #fff;
+  background: linear-gradient(35deg, #000, #364c8e);
+  transition-delay: 9000ms;
+  
+}
+
+.Logo{
+  background-color: transparent;
 }
 
 .btn1 {
@@ -49,29 +79,13 @@
 
 
 
-
   @media (max-width:992px) {
-
-      .par1{
-        margin: 0 auto;
-        width: 90%;
+ .imgBorder{
         box-shadow: 0 14px px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
         border-radius: 20px;
         border: 5px solid white;        
       }
       .parallax-view4{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        height:60vh;
-        width:100%;
-        background-size: cover;
-        background-blend-mode: color;
-        background: rgb(0,0,0);
-        background: radial-gradient(circle, rgba(0,0,0,1) 0%, #536ebf 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg');
-        background-attachment: fixed;
-      }
-      .solid-viewtop{
         display:flex;
         justify-content:center;
         align-items:center;
@@ -83,11 +97,23 @@
         background: radial-gradient(circle, rgba(0,0,0,1) 0%, #536ebf 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg');
         background-attachment: fixed;
       }
+      .solid-viewtop{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:40vh;
+        width:100%;
+        background-size: cover;
+        background-blend-mode: color;
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 0%, #536ebf 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg');
+        background-attachment: fixed;
+      }
       .solid-viewbottom{
         display:flex;
         justify-content:center;
         align-items:center;
-        height:30vh;
+        height:50vh;
         width:100%;
         background-size: cover;
         background-blend-mode: color;
@@ -107,18 +133,17 @@
     margin-bottom: 10rem;
     font-size: 4rem;
   }
-  .par1{
-    margin: 0 auto;
-    width: 60%;
-    box-shadow: 0 14px px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    border-radius: 20px;
-    border: 5px solid white;        
-  }
+
+    .imgBorder{
+      box-shadow: 0 14px px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      border-radius: 20px;
+      border: 5px solid white;        
+    }    
   .parallax-view4{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:110vh;
+    height:100vh;
     width:100%;
     background-size: cover;
     background-blend-mode: color;
@@ -126,6 +151,7 @@
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, #536ebf 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg');
     background-attachment: fixed;
   }
+  
   .solid-viewtop{
     display:flex;
     justify-content:center;
@@ -142,7 +168,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    height:20vh;
+    height:30vh;
     width:100%;
     background-size: cover;
     background-blend-mode: color;
@@ -283,3 +309,148 @@
     opacity: 0;
   }
 }
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+
+img {
+  background-color: rgba(16, 46, 72, 0); 
+    background-blend-mode: multiply;
+}
+
+.container{
+  padding: 1rem;
+  float: left;
+  
+}
+
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(00,45,114,0.8);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay{
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+}
+
+.content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.arrow {
+  margin-left: 8px;
+}
+
+.content h3 {
+  display: inline-block;
+  position: relative;
+  transition: all 300ms ease-out;
+  will-change: transform;
+}
+
+.content:hover h3 {
+  -webkit-transform: translate3d(-1rem, 0, 0);
+          transform: translate3d(-1rem, 0, 0);
+}
+.content i {
+  position: absolute;
+  width: 1.1em;
+  right: -1.4rem;
+  opacity: 1;
+  top: 38%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  transition: all 300ms ease-out;
+  will-change: right, opacity;
+}
+
+.content:hover i {
+  opacity: 1;
+  right: -3rem;
+}
+
+
+
+/*
+.content-details h3 {
+  display: inline-block;
+  position: relative;
+  transition: all 300ms ease-out;
+  will-change: transform;
+}
+
+.content-details:hover h3 {
+  -webkit-transform: translate3d(-1rem, 0, 0);
+          transform: translate3d(-1rem, 0, 0);
+}
+.content-details i {
+  position: absolute;
+  width: 1.1em;
+  right: 0px;
+  right: 0rem;
+  opacity: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  transition: all 300ms ease-out;
+  will-change: right, opacity;
+}
+.content-details i * {
+  stroke-width: 5;
+  stroke-color: transparent;
+}
+.content-details:hover i {
+  opacity: 1;
+  right: -2rem;
+}
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+}
+
