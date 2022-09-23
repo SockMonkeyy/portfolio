@@ -1,6 +1,8 @@
 .btn-primary1 {
   color: #fff;
   background: linear-gradient(35deg, #364c8e, rgb(0, 0, 0));
+  width: 150px;
+  text-align: center;
 
 }
 .btn-primary1:hover {
@@ -214,9 +216,7 @@
   position: absolute;
   left: -10em;
   top: 60%;
-
   image-rendering: -webkit-optimize-contrast;
-
   -webkit-animation: an-ghost 22s linear infinite;
   -moz-animation: an-ghost 22s linear infinite;
   -o-animation: an-ghost 22s linear infinite;
