@@ -65,8 +65,20 @@
         display:flex;
         justify-content:center;
         align-items:center;
-        height:60vh;
+        height:0vh;
         width:100%;
+        background-size: cover;
+        background-blend-mode: color;
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 0%, #536ebf 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg');
+        background-attachment: fixed;
+      }
+      .parallax-view2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+       
         background-size: cover;
         background-blend-mode: color;
         background: rgb(0,0,0);
@@ -122,6 +134,20 @@
     align-items:center;
     height:110vh;
     width:100%;
+    background-size: cover;
+    background-blend-mode: color;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, #536ebf 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg');
+    background-attachment: fixed;
+  }
+  .parallax-view2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:20vh;
+    width:100%;
+    position: relative;
+    z-index: 2;
     background-size: cover;
     background-blend-mode: color;
     background: rgb(0,0,0);
@@ -282,4 +308,36 @@
     left: 62.5em;
     opacity: 0;
   }
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.containerbtn {
+  position: relative;
+  width: 50%;
+}
+
+/* Make the image responsive */
+.containerbtn img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.containerbtn .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.containerbtn .btn:hover {
+  background-color: black;
 }
