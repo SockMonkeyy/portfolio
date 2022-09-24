@@ -88,7 +88,7 @@ img{
         display:flex;
         justify-content:center;
         align-items:center;
-        height:100vh;
+        height:80vh;
         width:100%;
         background-size: cover;
         background-blend-mode: color;
@@ -214,8 +214,8 @@ img{
 
 .bg-gradient-primary-to-secondary1 {
   background: #360033;
-  background: -webkit-linear-gradient(to right, #364c8e, #000000);
-  background: linear-gradient(to right, #364c8e, #000000);
+  background: rgb(8,138,14);
+  background: linear-gradient(90deg, #e89e30 0%, #30e8e8 35%, #088a0e 100%);
   background-size: 400% 400%;
   animation: body 15s infinite ease-in-out;
 }
