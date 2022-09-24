@@ -1,12 +1,111 @@
+:root{
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+    --primary: #0066b1;
+    --light: #fff;
+    --dark: #000;
+    --grey: #ccc;
+}
+
+
+/* CSS RESET */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+
+html,
+body {
+    box-sizing: border-box;
+  margin: 0px 0px;
+  line-height: 1.4;
+}
+
+
 body {
   background-size: cover;
   background-blend-mode: color;
   background: rgb(8, 138, 14);
-  background: linear-gradient(40deg, rgba(8, 138, 14, 1) 0%, rgba(48, 232, 232, 1) 35%, rgba(232, 158, 48, 1) 100%);
+   background: linear-gradient(35deg, #000000, #0066b1);
   background-attachment: fixed;
 }
 
 img {
+    width: 100%;
   background-color: transparent;
 }
 
@@ -91,11 +190,26 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     background-blend-mode: color;
     background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, #f0f0f0 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.postimg.cc/j5zvyF64/2022m440i.jpg');
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, #f0f0f0 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.postimg.cc/SRt539wT/2022-bmw-220i-230i-30.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .parallax-view1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    background-blend-mode: color;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, #f0f0f0 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.postimg.cc/x1dK4H6V/rodan-can-6cq-JPe-TIuls-unsplash.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top;
@@ -162,9 +276,24 @@ img {
     align-items: center;
     height: 100vh;
     width: 100%;
+    background-blend-mode:multiply;
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, #00000050 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.postimg.cc/SRt539wT/2022-bmw-220i-230i-30.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+
+  .parallax-view1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
     background-blend-mode: color;
     background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, #0066b1 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.postimg.cc/j5zvyF64/2022m440i.jpg');
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, #0066b1 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.postimg.cc/x1dK4H6V/rodan-can-6cq-JPe-TIuls-unsplash.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top;
@@ -237,10 +366,9 @@ img {
 
 .bg-gradient-primary-to-secondary1 {
   background: #360033;
-  background: rgb(8, 138, 14);
-  background: linear-gradient(90deg, #e89e30 0%, #30e8e8 35%, #088a0e 100%);
+  background: linear-gradient(90deg, #000 0%,var(--primary) 70%, #000 100%);
   background-size: 400% 400%;
-  animation: body 15s infinite ease-in-out;
+
 }
 
 .ag-ghost-block {
@@ -488,14 +616,6 @@ img {
   box-sizing: inherit;
 }
 
-html,
-body {
-  min-height: 100%;
-  height: 100%;
-  width: 100%;
-}
-
-
 
 .bird {
   background-image: url(https://i.postimg.cc/vZFgnBT9/Untitled-design-10.png);
@@ -728,3 +848,287 @@ body {
     transform: translateY(0vh) translateX(110vw) scale(0.45);
   }
 }
+
+/* Top Box */
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+  }
+/* Top Container */
+.top-container {
+    padding: 50px 35px;
+    height: 600px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      'showcase showcase top-box-a'
+      'showcase showcase top-box-b';
+  }
+  
+  .top-container1 {
+    padding: 50px 35px;
+    height: 600px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+      'top-box-a showcase showcase'
+      'top-box-b showcase showcase';
+  }
+  .showcase {
+    grid-area: showcase;
+   max-width: 100%;
+   height: auto;
+   background-blend-mode: color;
+   background: rgb(0,0,0);
+   background: radial-gradient(circle, rgba(0,0,0,1) 0%, #0066b1 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.postimg.cc/HxjP52ZS/2022-BMW-3series-facelift-May-22-19.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    box-shadow: var(--shadow);
+  }
+  
+  .showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: var(--light);
+  }
+  
+  .showcase p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: var(--light);
+  }
+  
+
+  /* Showcase */
+  .showcase1 {
+    grid-area: showcase;
+   max-width: 100%;
+   height: auto;
+   background-blend-mode: color;
+   ackground: rgb(0,0,0);
+   background-image: url('https://i.postimg.cc/6QcSrCb2/BMW-i4-e-Drive35-1.jpg');
+   ackground: radial-gradient(circle, rgba(0,0,0,1) 0%, #0066b1 50%, rgba(0,0,0,0.9920343137254902) 80%), url('https://i.postimg.cc/6QcSrCb2/BMW-i4-e-Drive35-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    box-shadow: var(--shadow);
+  }
+  
+  .showcase1 h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: var(--light);
+  }
+  
+  .showcase1 p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: var(--light);
+  }
+  
+  /* Top Box */
+  .top-box {
+    background: var(--light);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    margin: 0 auto;
+    margin-top: auto;
+    min-height: 30vh;
+    border-radius: 6px;
+    max-width: 500px;
+  }
+  
+  .top-box .price {
+    font-size: 2.5rem;
+  }
+  
+  .top-box-a {
+    grid-area: top-box-a;
+  }
+  
+  .top-box-b {
+    grid-area: top-box-b;
+  }
+
+  .top-box1 {
+    background: var(--light);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    margin: 0 auto;
+    margin-top: auto;
+    min-height: 30vh;
+    border-radius: 6px;
+    max-width: 500px;
+  }
+  
+  .top-box1 .price {
+    font-size: 2.5rem;
+  }
+  
+  .top-box-a1 {
+    grid-area: top-box-a;
+  }
+  
+  .top-box-b1 {
+    grid-area: top-box-b;
+  }
+
+  
+  /* Media Queries */
+@media (max-width: 700px) {
+    .top-container {
+      grid-template-areas:
+        'showcase showcase';
+        padding: 50px 20px;
+    }
+
+    .top-box-a {
+        grid-area: top-box-a;
+        margin: -25px 50px;
+      }
+  
+   
+    .showcase h1 {
+      font-size: 2.5rem;
+    }
+    .top-container1 {
+        grid-template-areas:
+          'showcase showcase';
+          padding: 50px 20px;
+      }
+  
+      .top-box-a1 {
+          grid-area: top-box-a;
+          margin: -25px 50px;
+        }
+    
+     
+      .showcase1 h1 {
+        font-size: 2.5rem;
+      }
+}
+
+@media (min-width:768px){
+    .graphics{
+        margin-top: -3rem;
+    }
+}
+
+    @media (max-width: 500px) {
+        .top-container {
+          grid-template-areas:
+            'showcase'
+            'top-box-a';
+            padding: 20px 10px;
+        }
+        .top-box-a {
+            grid-area: top-box-a;
+            margin: -45px 50px;
+          }
+
+          .top-container1 {
+            grid-template-areas:
+              'showcase'
+              'top-box-a';
+              padding: 50px 10px;
+          }
+          .top-box-a1 {
+              grid-area: top-box-a;
+              margin: -45px 50px;
+              min-height: auto;
+            }
+
+            .boxes {
+                display: grid;
+                grid-gap: 30px;
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                padding: 150px 50px;
+                padding-bottom: 20px;
+              }
+      }
+      
+      .btnTop {
+        background: var(--dark);
+        color: var(--light);
+        padding: 0.6rem 1.3rem;
+        text-decoration: none;
+        border: 0;
+        width: auto;
+      }
+
+      /* Boxes */
+@media (min-width:500px){
+    .boxes {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 50px 50px;
+      }
+}
+  
+  .box {
+    background: var(--light);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+  }
+  
+  /* Info */
+  .info {
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+  }
+  
+  /* Portfolio */
+  .portfolio {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .portfolio img {
+    width: 100%;
+    box-shadow: var(--shadow);
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
+    padding: 1rem;
+  }
+  #myVideo {
+    position: relative;
+    right: 0%;
+    bottom: 0%;
+    min-width: 100%;
+    min-height: auto;
+    border: 5px solid white;
+    border-radius: 6px;
+    box-shadow: var(--shadow);
+    
+  }
