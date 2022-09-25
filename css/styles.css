@@ -12749,6 +12749,7 @@ footer a:focus {
   box-shadow: 0 0 30px white;
   border-radius: 50px;
   margin-left: 1rem;
+
 }
 
 
@@ -13284,7 +13285,7 @@ body:after {
 
 .monDiv {
   background-color: white;
-
+  overflow: hidden;
 }
 
 .monsterDiv {
