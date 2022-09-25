@@ -13295,7 +13295,9 @@ body:after {
   padding: 1rem;
 
 }
-
+.monsterDiv:hover{
+  overflow: hidden;
+}
 
 .logoDiv {
   justify-content: center;
