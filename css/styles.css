@@ -13650,7 +13650,7 @@ body:after {
   position: relative;
   transition: all 5s ease-in-out;
   height: 100%;
-  max-height: 100vh;
+  max-height: 90vh;
 }
 
 .popup h2 {
@@ -13683,5 +13683,6 @@ body:after {
   .popup{
     width: 90%;
     height: 100%;
+    max-height: 90vh;
   }
 }
