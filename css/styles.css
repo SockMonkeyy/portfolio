@@ -12749,7 +12749,7 @@ footer a:focus {
   box-shadow: 0 0 30px white;
   border-radius: 50px;
   margin-left: 1rem;
-
+  
 }
 
 
@@ -13163,6 +13163,7 @@ body:after {
 }
 
 .hoverChange:hover {
+  z-index: ;
   content: url("https://i.postimg.cc/CL7mTV8p/monster.png");
   width: 100%;
   -moz-transform: scale(2) rotatez(-5deg);
@@ -13285,7 +13286,7 @@ body:after {
 
 .monDiv {
   background-color: white;
-  overflow: hidden;
+  overflow: ;
 }
 
 .monsterDiv {
